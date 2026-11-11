@@ -8,7 +8,7 @@ Analysis code and frozen result tables for:
 
 - nalysis/ — analysis scripts for molecular Class B contrasts, imaging geography (ATLAS / ISLES / ADNI), MultiVINE genetics, developmental and Circle of Willis tests, and related sensitivity analyses
 - 
-esults/ — frozen numerical outputs (CSV/JSON/Markdown reports) corresponding to the manuscript analyses
+esults/ — frozen numerical outputs (CSV/JSON/Markdown reports) corresponding to the reported analyses
 
 ## Requirements
 
@@ -17,7 +17,7 @@ equirements.txt for core dependencies (scanpy/anndata, scikit-learn, statsmodels
 
 ## Data
 
-Analyses use publicly available and institutionally controlled resources described in the manuscript (Garcia ROSMAP vascular snRNA-seq, Liu arterial-territory atlas, ATLAS, ISLES, ADNI, MultiVINE, and related cohorts). Users should obtain each dataset through its official access channel and place files under a local data/ layout consistent with path helpers in nalysis/.
+Analyses use publicly available and institutionally controlled resources described in the accompanying paper (Garcia ROSMAP vascular snRNA-seq, Liu arterial-territory atlas, ATLAS, ISLES, ADNI, MultiVINE, and related cohorts). Users should obtain each dataset through its official access channel and place files under a local data/ layout consistent with path helpers in nalysis/.
 
 ## Reproducibility
 
@@ -33,7 +33,7 @@ esults/.
 
 ## Citation
 
-If you use this code or frozen outputs, please cite the accompanying manuscript and the original data sources listed therein.
+If you use this code or frozen outputs, please cite the accompanying paper and the original data sources listed in the accompanying paper.
 
 ## License
 
