@@ -1,0 +1,11 @@
+n_all	48322
+n_vascular	406
+n_Endo	169
+n_VLMC	237
+reference	humancortexref
+ct_col	predicted.subclass
+published_expect_Endo	89
+published_expect_VLMC	159
+
+Endo VLMC 
+ 169  237 

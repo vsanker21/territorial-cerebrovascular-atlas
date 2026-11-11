@@ -1,0 +1,13 @@
+{
+  "object": "data\\processed\\aca_cohort_hunt\\allen_acc_vascular.h5ad",
+  "n_vascular": 278,
+  "n_donors": 5,
+  "cell_type_counts": {
+    "cerebral cortex endothelial cell": 165,
+    "vascular leptomeningeal cell": 113
+  },
+  "vessel_enriched": false,
+  "anatomy": "anterior_cingulate_cortex",
+  "tv_dominant": "ACA",
+  "verdict": "GO_annotated_ACA_unsorted_not_vessel_enriched"
+}

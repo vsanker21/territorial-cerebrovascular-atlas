@@ -1,0 +1,38 @@
+"cluster","n","cohort","frac"
+"Capillary",36268,"adult_temporal_sorted",0.476426929392447
+"Arteriole",18487,"adult_temporal_sorted",0.242850574712644
+"Angiogenic capillary",4863,"adult_temporal_sorted",0.0638817733990148
+"Venule",4780,"adult_temporal_sorted",0.0627914614121511
+"Artery",3114,"adult_temporal_sorted",0.0409064039408867
+"Large artery",2157,"adult_temporal_sorted",0.0283349753694581
+"EndoMT",2088,"adult_temporal_sorted",0.0274285714285714
+"Vein",1792,"adult_temporal_sorted",0.0235402298850575
+"Large vein",1406,"adult_temporal_sorted",0.0184696223316913
+"Mitochondrial",820,"adult_temporal_sorted",0.0107717569786535
+"Proliferating cell",305,"adult_temporal_sorted",0.00400656814449918
+"Stem-to-EC",45,"adult_temporal_sorted",0.000591133004926108
+"Capillary",5436,"avm_sorted",0.267717311007141
+"Vein",3440,"avm_sorted",0.169416399901502
+"Angiogenic capillary",2275,"avm_sorted",0.112041369120906
+"Venule",2160,"avm_sorted",0.106377739473036
+"Large vein",1997,"avm_sorted",0.0983501600590987
+"Artery",1865,"avm_sorted",0.0918492982024132
+"Large artery",1129,"avm_sorted",0.0556020684560453
+"Arteriole",1071,"avm_sorted",0.0527456291553804
+"Mitochondrial",587,"avm_sorted",0.0289091356808668
+"EndoMT",231,"avm_sorted",0.0113765082491997
+"Proliferating cell",82,"avm_sorted",0.0040384141836986
+"Stem-to-EC",32,"avm_sorted",0.00157596651071165
+"Capillary",6944,"lgg_sorted",0.399700684970932
+"Angiogenic capillary",4720,"lgg_sorted",0.271685949461809
+"Arteriole",2000,"lgg_sorted",0.11512116502619
+"Venule",1027,"lgg_sorted",0.0591147182409486
+"Artery",854,"lgg_sorted",0.0491567374661832
+"Large vein",513,"lgg_sorted",0.0295285788292178
+"Vein",418,"lgg_sorted",0.0240603234904737
+"Mitochondrial",357,"lgg_sorted",0.0205491279571749
+"EndoMT",306,"lgg_sorted",0.0176135382490071
+"Large artery",157,"lgg_sorted",0.00903701145455592
+"Proliferating cell",43,"lgg_sorted",0.00247510504806309
+"Stem-to-EC",33,"lgg_sorted",0.00189949922293214
+"Proliferating Stem-to-EC",1,"lgg_sorted",5.7560582513095e-05

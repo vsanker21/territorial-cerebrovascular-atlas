@@ -1,0 +1,31 @@
+{
+  "dataset": "ISLES-2022",
+  "doi": "10.5281/zenodo.7960856",
+  "atlas_map": "ArterialAtlas_level2 (L/R collapsed to ACA/MCA/PCA/VB)",
+  "registration": "DWI affine -> MNI152 2mm; nearest for mask",
+  "n_cases": 250,
+  "n_ok": 250,
+  "n_error": 0,
+  "n_primary_qc": 247,
+  "n_strict_qc": 247,
+  "median_lesion_voxels_primary": 1472.0,
+  "median_frac_assigned_tv_primary": 0.9591216682778622,
+  "mean_lesion_share_primary": {
+    "ACA": 0.0649674223100003,
+    "MCA": 0.48551423827882617,
+    "PCA": 0.12589956032806554,
+    "VB": 0.2377907260717364
+  },
+  "dominant_territory_counts_primary": {
+    "MCA": 137,
+    "VB": 66,
+    "PCA": 33,
+    "ACA": 11
+  },
+  "interpretation_locks": [
+    "ISLES'22 is an independent stroke replication arm (not Liu construction).",
+    "Use ArterialAtlas_level2 bilateral; do not use TerritoryVoxels_BMM.",
+    "Native-space masks require DWI->MNI registration before territory overlay.",
+    "Descriptive geography + MRA null; not molecular H3."
+  ]
+}

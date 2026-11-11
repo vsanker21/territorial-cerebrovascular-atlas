@@ -1,0 +1,39 @@
+{
+  "honesty_lock": "Theory figure \u2014 pair with genetics/imaging; not standalone claim",
+  "territories": [
+    "ACA",
+    "MCA"
+  ],
+  "pairwise_W2": [
+    {
+      "t1": "ACA",
+      "t2": "ACA",
+      "W2": 17.24042363781505
+    },
+    {
+      "t1": "ACA",
+      "t2": "MCA",
+      "W2": 30.017477024199966
+    },
+    {
+      "t1": "MCA",
+      "t2": "MCA",
+      "W2": 2.1567114317329494
+    }
+  ],
+  "H2_borderzone_OT": {
+    "W2_SFG_ACA": 55.71717508981522,
+    "W2_SFG_MCA": 9.971599020430665,
+    "W2_SFG_geodesic_mid": 27.039355913022305,
+    "W2_ACA_MCA": 52.24239868940731,
+    "OT_mixture_FVE": 0.5435929430387354,
+    "prior_H2_FVE": 0.94,
+    "interpretation": "If OT_mixture_FVE high, SFG sits near ACA\u2013MCA geodesic (mixture/borderzone), consistent with H2; SFG is NOT clean ACA."
+  },
+  "conformal": {
+    "accuracy": 0.8166259168704156,
+    "set_coverage": 0.921760391198044,
+    "mean_set_size": 1.5525672371638142,
+    "n_test": 409
+  }
+}

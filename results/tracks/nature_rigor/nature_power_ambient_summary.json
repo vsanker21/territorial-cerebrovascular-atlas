@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-18",
+  "pair": {
+    "MCA": "Midtemporal_cortex",
+    "PCA": "Entorhinal_cortex"
+  },
+  "prespec_MDE_d": 0.5,
+  "n_power_rows": 20,
+  "n_underpowered": 20,
+  "modules_ci_excludes_0": 5,
+  "verdict": "POWER_AND_AMBIENT_CI_TABLES_WRITTEN",
+  "locks": [
+    "No soft DE markers",
+    "Donor-level primary",
+    "Ambient residualization for modules",
+    "TRCI/BCI excluded"
+  ]
+}

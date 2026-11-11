@@ -1,0 +1,465 @@
+{
+  "timestamp_utc": "2026-08-18T23:18:13.847466+00:00",
+  "venue_gate": "BRAIN_OR_NAT_COMMUN \u2014 genetics cell-type spine present; territory-GWAS filter falsified; Track C OOS fail; Track B KILL; ACC/RADC still required for Nat Neurosci",
+  "summaries": {
+    "01": {
+      "honesty_lock": "Falsify if territory adds nothing beyond cell type + A\u2013V zonation",
+      "multivine_tissue": "dorsolateral prefrontal cortex ONLY \u2014 not ACC",
+      "n_vascular_nuclei": 39582,
+      "n_genesets": 8,
+      "top_enrichments": [
+        {
+          "cell_type": "Smooth_Muscle_Cell",
+          "geneset": "WMH_core",
+          "overlap_n": 4,
+          "overlap_genes": "COL4A1|COL4A2|NBEAL1|NOTCH3",
+          "hypergeom_p": 0.00022115043798156522,
+          "universe": 4000,
+          "neglog10p": 3.65531219618681,
+          "fdr": 0.0017692035038525218
+        },
+        {
+          "cell_type": "Smooth_Muscle_Cell",
+          "geneset": "cSVD_core",
+          "overlap_n": 3,
+          "overlap_genes": "COL4A1|COL4A2|NOTCH3",
+          "hypergeom_p": 0.0004934185748130781,
+          "universe": 4000,
+          "neglog10p": 3.30678450546043,
+          "fdr": 0.003947348598504625
+        },
+        {
+          "cell_type": "Smooth_Muscle_Cell",
+          "geneset": "cerebrovascular_combined",
+          "overlap_n": 6,
+          "overlap_genes": "COL4A1|COL4A2|NBEAL1|NOTCH3|PPP1R12B|ZFHX3",
+          "hypergeom_p": 0.11103456319156477,
+          "universe": 4000,
+          "neglog10p": 0.9545418116020188,
+          "fdr": 0.8882765055325181
+        },
+        {
+          "cell_type": "Pericyte",
+          "geneset": "cSVD_core",
+          "overlap_n": 1,
+          "overlap_genes": "NOTCH3",
+          "hypergeom_p": 0.16252127547608425,
+          "universe": 4000,
+          "neglog10p": 0.7890897779648018,
+          "fdr": 0.650085101904337
+        },
+        {
+          "cell_type": "Pericyte",
+          "geneset": "WMH_core",
+          "overlap_n": 1,
+          "overlap_genes": "NOTCH3",
+          "hypergeom_p": 0.28081205764600464,
+          "universe": 4000,
+          "neglog10p": 0.5515842481921691,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Smooth_Muscle_Cell",
+          "geneset": "stroke_core",
+          "overlap_n": 1,
+          "overlap_genes": "ZFHX3",
+          "hypergeom_p": 0.33359399503025283,
+          "universe": 4000,
+          "neglog10p": 0.4767817756263177,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Pericyte",
+          "geneset": "stroke_core",
+          "overlap_n": 1,
+          "overlap_genes": "ZFHX3",
+          "hypergeom_p": 0.33359399503025283,
+          "universe": 4000,
+          "neglog10p": 0.4767817756263177,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Arterial",
+          "geneset": "ischemic_stroke_HP",
+          "overlap_n": 2,
+          "overlap_genes": "FUT8|PTPRG",
+          "hypergeom_p": 0.38416393835780355,
+          "universe": 4000,
+          "neglog10p": 0.4154834049799507,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Pericyte",
+          "geneset": "ischemic_stroke_HP",
+          "overlap_n": 2,
+          "overlap_genes": "ADGRL3|ZFHX3",
+          "hypergeom_p": 0.38416393835780355,
+          "universe": 4000,
+          "neglog10p": 0.4154834049799507,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Capillary",
+          "geneset": "AD_core",
+          "overlap_n": 1,
+          "overlap_genes": "INPP5D",
+          "hypergeom_p": 0.3980483378812087,
+          "universe": 4000,
+          "neglog10p": 0.40006418521182446,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Meningeal_Fibroblast",
+          "geneset": "AD_core",
+          "overlap_n": 1,
+          "overlap_genes": "CLU",
+          "hypergeom_p": 0.3980483378812087,
+          "universe": 4000,
+          "neglog10p": 0.40006418521182446,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Arterial_vs_Venous",
+          "geneset": "AD_core",
+          "overlap_n": 1,
+          "overlap_genes": "ADAMTS1",
+          "hypergeom_p": 0.3980483378812087,
+          "universe": 4000,
+          "neglog10p": 0.40006418521182446,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Arterial",
+          "geneset": "WMH",
+          "overlap_n": 1,
+          "overlap_genes": "ANO2",
+          "hypergeom_p": 0.6196303912923854,
+          "universe": 4000,
+          "neglog10p": 0.2078672893523207,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Venous",
+          "geneset": "WMH",
+          "overlap_n": 1,
+          "overlap_genes": "ANO2",
+          "hypergeom_p": 0.6196303912923854,
+          "universe": 4000,
+          "neglog10p": 0.2078672893523207,
+          "fdr": 1.0
+        },
+        {
+          "cell_type": "Smooth_Muscle_Cell",
+          "geneset": "WMH",
+          "overlap_n": 1,
+          "overlap_genes": "PPP1R12B",
+          "hypergeom_p": 0.6196303912923854,
+          "universe": 4000,
+          "neglog10p": 0.2078672893523207,
+          "fdr": 1.0
+        }
+      ],
+      "falsifier": {
+        "class_b_gwas_score_donor_oof_auroc_ACA_vs_MCA": 0.9160373325733828,
+        "null_random_modules_mean_auroc": 0.9157826303790255,
+        "null_random_modules_sd_auroc": 0.009878438313378937,
+        "gwas_beats_null": false,
+        "garcia_MT_vs_EC_gwas_donor_oof_auroc": 0.48773694390715666
+      },
+      "verdict_notes": [
+        "FALSIFIED at Class B: GWAS modules do not beat random modules for ACA vs MCA \u2014 territory adds nothing beyond noise at this resolution."
+      ],
+      "best_celltype_enrichment": {
+        "cell_type": "Smooth_Muscle_Cell",
+        "geneset": "WMH_core",
+        "overlap_n": 4,
+        "overlap_genes": "COL4A1|COL4A2|NBEAL1|NOTCH3",
+        "hypergeom_p": 0.00022115043798156522,
+        "universe": 4000,
+        "neglog10p": 3.65531219618681,
+        "fdr": 0.0017692035038525218
+      },
+      "_status": "ok",
+      "_path": "F:\\Cerebrovascular SCS\\results\\moonshot\\01_gwas_multivine"
+    },
+    "02": {
+      "honesty_lock": "SENSITIVITY_NOT_CONFIRMATORY_H1c \u2014 never report transported ACC as markers",
+      "transport": {
+        "n_pairs_used": 10,
+        "mean_delta_norm": 6.696353435516357,
+        "ot_shift_norm": 3.025606632232666,
+        "delta_vs_ot_cosine": 0.9076751470565796,
+        "matthews_V_vs_P_donor_oof_auroc": 0.9267756407781818
+      },
+      "n_aca_cells": 264,
+      "n_mca_cells": 319,
+      "donor_oof_auroc_raw_ACA_vs_MCA": 0.8155338652987556,
+      "donor_oof_auroc_transported_mean_shift": 0.9568609290396125,
+      "donor_oof_auroc_transported_ot": 0.9511375510591812,
+      "distance_ACA_to_MCA_centroid_raw": 12.111771867180272,
+      "distance_ACA_to_MCA_centroid_transported": 14.260146298808325,
+      "distance_ACA_to_MCA_centroid_ot": 12.69270627091822,
+      "interpretation": "SENSITIVITY ONLY. If transport reduces ACA\u2013MCA distance / AUROC, enrichment batch may inflate separability; if AUROC remains high after transport toward BVE, residual territory-linked state is compatible with hypothesis \u2014 still NOT confirmatory H1c markers.",
+      "_status": "ok",
+      "_path": "F:\\Cerebrovascular SCS\\results\\moonshot\\02_enrichment_transport"
+    },
+    "03": {
+      "honesty_lock": "Kill Track B language if adult territory \u22a5 developmental state after covariates",
+      "developmental_pc": 21,
+      "developmental_pc_abs_corr": 0.3030518727241023,
+      "pointbiserial_terr_devscore_r": -0.03947250937249959,
+      "pointbiserial_terr_devscore_p": 0.0031792377176272143,
+      "pointbiserial_terr_devscore_resid_batch_r": -0.04716041600178491,
+      "pointbiserial_terr_devscore_resid_batch_p": 0.0004235247050120659,
+      "donor_oof_auroc_with_devPC": 0.9804880445743389,
+      "donor_oof_auroc_without_devPC": 0.9804880445743389,
+      "delta_auroc_devPC": 0.0,
+      "track_B_language": "KILL",
+      "n_fetal": 5000,
+      "n_adult_territory": 5583,
+      "_status": "ok",
+      "_path": "F:\\Cerebrovascular SCS\\results\\moonshot\\03_developmental_fate"
+    },
+    "04": {
+      "honesty_lock": "Only nested OOS / conformal metrics count; in-sample R\u00b2 is descriptive",
+      "n_qc": 78,
+      "models": [
+        {
+          "outcome": "lesion_share_MCA",
+          "oos_r2_cow_features": -0.05090534751803255,
+          "oos_r2_demo_only": -0.03722705917758806,
+          "delta_oos_r2": -0.013678288340444489,
+          "oos_spearman_cow": -0.2801375839350522,
+          "oos_spearman_p": 0.012987230950463453,
+          "oos_spearman_demo": -0.1717230479591929,
+          "conformal_q90": 0.22785101186822154,
+          "conformal_coverage_90": 0.7647058823529411,
+          "n": 78
+        },
+        {
+          "outcome": "lesion_share_ACA",
+          "oos_r2_cow_features": -0.04395381815015598,
+          "oos_r2_demo_only": -0.04377867543911296,
+          "delta_oos_r2": -0.00017514271104301926,
+          "oos_spearman_cow": -0.12651591884757674,
+          "oos_spearman_p": 0.2696969787194502,
+          "oos_spearman_demo": -0.06444972936112169,
+          "conformal_q90": 0.0877670922705563,
+          "conformal_coverage_90": 0.8235294117647058,
+          "n": 78
+        },
+        {
+          "outcome": "mca_minus_aca_share",
+          "oos_r2_cow_features": -0.05110428162782643,
+          "oos_r2_demo_only": -0.038597333572097714,
+          "delta_oos_r2": -0.012506948055728717,
+          "oos_spearman_cow": -0.2224737288028427,
+          "oos_spearman_p": 0.05026260682449131,
+          "oos_spearman_demo": -0.1547518180923959,
+          "conformal_q90": 0.2996583892785817,
+          "conformal_coverage_90": 0.7647058823529411,
+          "n": 78
+        }
+      ],
+      "features": [
+        "age",
+        "lvo_present",
+        "lvo_volume_mm3",
+        "cow_present_BA",
+        "cow_present_R_PCA",
+        "cow_present_L_PCA",
+        "cow_present_R_ICA",
+        "cow_present_R_MCA",
+        "cow_present_L_ICA",
+        "cow_present_L_MCA",
+        "cow_present_R_Pcom",
+        "cow_present_L_Pcom",
+        "cow_present_Acom",
+        "cow_present_R_ACA",
+        "cow_present_L_ACA",
+        "cow_present_A2_3rd",
+        "cow_vol_ACA",
+        "cow_vol_MCA",
+        "cow_vol_PCA",
+        "cow_vol_Pcom",
+        "cow_vol_Acom",
+        "cow_n_labels",
+        "cow_completeness",
+        "cow_laterality_MCA",
+        "cow_present_ACA",
+        "cow_present_MCA",
+        "cow_present_PCA",
+        "cow_present_VB",
+        "cow_present_ICA",
+        "cow_present_Pcom",
+        "missing_Acom",
+        "missing_Pcom_any",
+        "aca_asym"
+      ],
+      "track_C_topology_support": "FAIL_OOS",
+      "note": "PASS only if OOS R\u00b2>0 and improves on demographics by >0.05 on any territorial share outcome.",
+      "_status": "ok",
+      "_path": "F:\\Cerebrovascular SCS\\results\\moonshot\\04_cow_iv_conformal"
+    },
+    "05": {
+      "honesty_lock": "Theory figure \u2014 pair with genetics/imaging; not standalone claim",
+      "territories": [
+        "ACA",
+        "MCA"
+      ],
+      "pairwise_W2": [
+        {
+          "t1": "ACA",
+          "t2": "ACA",
+          "W2": 17.24042363781505
+        },
+        {
+          "t1": "ACA",
+          "t2": "MCA",
+          "W2": 30.017477024199966
+        },
+        {
+          "t1": "MCA",
+          "t2": "MCA",
+          "W2": 2.1567114317329494
+        }
+      ],
+      "H2_borderzone_OT": {
+        "W2_SFG_ACA": 55.71717508981522,
+        "W2_SFG_MCA": 9.971599020430665,
+        "W2_SFG_geodesic_mid": 27.039355913022305,
+        "W2_ACA_MCA": 52.24239868940731,
+        "OT_mixture_FVE": 0.5435929430387354,
+        "prior_H2_FVE": 0.94,
+        "interpretation": "If OT_mixture_FVE high, SFG sits near ACA\u2013MCA geodesic (mixture/borderzone), consistent with H2; SFG is NOT clean ACA."
+      },
+      "conformal": {
+        "accuracy": 0.8166259168704156,
+        "set_coverage": 0.921760391198044,
+        "mean_set_size": 1.5525672371638142,
+        "n_test": 409
+      },
+      "_status": "ok",
+      "_path": "F:\\Cerebrovascular SCS\\results\\moonshot\\05_wasserstein_manifold"
+    },
+    "06": {
+      "honesty_lock": "ECOLOGICAL_NOT_CONFIRMATORY_MOLECULAR_H3",
+      "label": "ECOLOGICAL_NOT_CONFIRMATORY_MOLECULAR_H3",
+      "shares": {
+        "ATLAS": {
+          "ACA": 0.09539580765748408,
+          "MCA": 0.6918047777895728,
+          "PCA": 0.09122419210558161,
+          "VB": 0.09684975502529339
+        },
+        "ISLES22": {
+          "ACA": 0.0641878132422803,
+          "MCA": 0.4796880674194802,
+          "PCA": 0.12438876560412873,
+          "VB": 0.23493723735887556
+        },
+        "ADNI_WMH": {
+          "ACA": 0.04094874601187502,
+          "MCA": 0.13156538403894646,
+          "PCA": 0.02299435815015665,
+          "VB": 0.004517087946447276
+        }
+      },
+      "models": [
+        {
+          "outcome": "share_ATLAS",
+          "n_territories": 4,
+          "beta_mean": -0.4218336313285523,
+          "beta_sd": 2.8331243696480155,
+          "beta_ci95": [
+            -5.668271999288554,
+            6.04444287705069
+          ],
+          "P_beta_gt_0": 0.40875,
+          "spearman_raw": -0.632455532033676
+        },
+        {
+          "outcome": "share_ISLES22",
+          "n_territories": 4,
+          "beta_mean": -0.07082052731212908,
+          "beta_sd": 2.81491104483941,
+          "beta_ci95": [
+            -5.323060852423531,
+            6.212614336312661
+          ],
+          "P_beta_gt_0": 0.47125,
+          "spearman_raw": -0.9486832980505139
+        },
+        {
+          "outcome": "share_ADNI_WMH",
+          "n_territories": 4,
+          "beta_mean": 0.5877230294490723,
+          "beta_sd": 2.816238329624623,
+          "beta_ci95": [
+            -4.705546178632169,
+            6.837742727187886
+          ],
+          "P_beta_gt_0": 0.58875,
+          "spearman_raw": -0.316227766016838
+        }
+      ],
+      "molecular_cols_used": [
+        "mol_mod_BBB_tight_junction",
+        "mol_mod_angiogenesis",
+        "mol_mod_ECM_basement",
+        "mol_mod_hypoxia_stress",
+        "mol_mod_inflammation"
+      ],
+      "verdict": "Ecological hierarchical posteriors estimated; do NOT interpret as confirmatory molecular H3. Use PPC and beta CI for honest uncertainty at n_territories\u22483\u20134.",
+      "_status": "ok",
+      "_path": "F:\\Cerebrovascular SCS\\results\\moonshot\\06_bayesian_ecological"
+    },
+    "07": {
+      "honesty_lock": "Methods lever \u2014 with #1 as supplement; alone \u2192 Nat Methods",
+      "probe_harmony_pca": {
+        "auroc": 0.8155338652987556,
+        "n": 583,
+        "n_donors": 51
+      },
+      "probe_gwas_modules": {
+        "auroc": 0.9150398974066686,
+        "n": 583,
+        "n_donors": 51
+      },
+      "gwas_modules_used": [
+        "AD_core",
+        "cerebrovascular_combined",
+        "cSVD_core",
+        "ICH",
+        "ischemic_stroke_HP",
+        "stroke_core",
+        "WMH",
+        "WMH_core"
+      ],
+      "n_shared_genes_mv": 3000,
+      "probe_harmony_plus_gwas": {
+        "auroc": 0.8874204426712264,
+        "n": 583,
+        "n_donors": 51
+      },
+      "alignment_to_multivine_gwas": {
+        "spearman_coef_vs_multivine_enrichment": 0.14285714285714288,
+        "p": 0.735764859879812,
+        "n": 8
+      },
+      "genept_status": "DOWNLOAD_UNAVAILABLE \u2014 Harmony+GWAS probes primary",
+      "probe_harmony_donor_label_shuffle_null": {
+        "auroc": 0.42710746027471047,
+        "n": 583,
+        "n_donors": 51
+      },
+      "probe_gwas_donor_label_shuffle_null": {
+        "auroc": 0.3493670886075949,
+        "n": 583,
+        "n_donors": 51
+      },
+      "_status": "ok",
+      "_path": "F:\\Cerebrovascular SCS\\results\\moonshot\\07_foundation_probes"
+    }
+  }
+}

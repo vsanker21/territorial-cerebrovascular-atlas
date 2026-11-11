@@ -1,0 +1,57 @@
+{
+  "strata": [
+    {
+      "stratum": "all_primary",
+      "n": 155,
+      "mean_share_MCA": 0.20727714540902384,
+      "mean_share_ACA": 0.07053751732368146,
+      "median_n_wmh": 87.0,
+      "median_TOTAL_WMH_ucd": 8.159
+    },
+    {
+      "stratum": "female",
+      "n": 82,
+      "mean_share_MCA": 0.2036798147167666,
+      "mean_share_ACA": 0.08159193199060957,
+      "median_n_wmh": 91.5,
+      "median_TOTAL_WMH_ucd": 8.619005
+    },
+    {
+      "stratum": "male",
+      "n": 73,
+      "mean_share_MCA": 0.21131798262498405,
+      "mean_share_ACA": 0.058120229615625275,
+      "median_n_wmh": 84.0,
+      "median_TOTAL_WMH_ucd": 7.7841
+    },
+    {
+      "stratum": "APOE_e4_carrier",
+      "n": 42,
+      "mean_share_MCA": 0.2105545730899286,
+      "mean_share_ACA": 0.05725760828735159,
+      "median_n_wmh": 65.0,
+      "median_TOTAL_WMH_ucd": 6.877195
+    },
+    {
+      "stratum": "APOE_e4_noncarrier",
+      "n": 69,
+      "mean_share_MCA": 0.20997184687743145,
+      "mean_share_ACA": 0.07049901701026094,
+      "median_n_wmh": 92.0,
+      "median_TOTAL_WMH_ucd": 8.998
+    }
+  ],
+  "tests": {
+    "MCA_share_female_vs_male": {
+      "U": 3002.5,
+      "p": 0.9731533461219665
+    },
+    "MCA_share_e4_vs_non": {
+      "U": 1436.0,
+      "p": 0.9366262795599518
+    }
+  },
+  "apoe_match_rate": 0.7161290322580646,
+  "apoe_source": "ADNIMERGE2/data/APOERES.rda (RID+GENOTYPE)",
+  "note": "Descriptive sensitivity only; does not change primary MCA-dominant geography lock."
+}

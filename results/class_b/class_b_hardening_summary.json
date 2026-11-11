@@ -1,0 +1,55 @@
+{
+  "baseline": {
+    "donor_oof": 0.7869318181818181,
+    "cell_cv": 0.8264763963761605,
+    "cell_cv_std": 0.03891247682396497
+  },
+  "ambient_residualized": {
+    "donor_oof": 0.7244318181818181,
+    "cell_cv": 0.6660612955571683,
+    "cell_cv_std": 0.027189443245782607,
+    "ambient_neuronal_aca": 1.9190086876183297,
+    "ambient_neuronal_mca": 0.14724559481125976,
+    "ambient_oligo_aca": 0.2429042468919899,
+    "ambient_oligo_mca": 0.366579679347856,
+    "neuronal_mw_p": 2.6156644076780388e-73
+  },
+  "nonneuronal_modules_only": {
+    "donor_oof": 0.5994318181818181,
+    "cell_cv": 0.863330835176354,
+    "cell_cv_std": 0.039392895062800824,
+    "modules": [
+      "mod_BBB_tight_junction",
+      "mod_angiogenesis",
+      "mod_ECM_basement",
+      "mod_hypoxia_stress",
+      "mod_inflammation"
+    ]
+  },
+  "harmony_plus_ambient_features": {
+    "donor_oof": 0.8522727272727273
+  },
+  "rosmap_mca_zonation_cap_vs_av": {
+    "cell_cv_auroc": 0.9795238095238096,
+    "cell_cv_std": 0.026920560047814412,
+    "subtype_counts": {
+      "capEndo": 74,
+      "vEndo": 29,
+      "aEndo": 7,
+      "aSMC": 2
+    },
+    "note": "Within-MCA zonation separability (confound control), NOT ACA vs MCA"
+  },
+  "zonation_class_b": {
+    "status": "NO-GO_on_class_b_object",
+    "note": "Class B object lacks zonation. Within Garcia ROSMAP MCA, capEndo vs a/vEndo cell CV AUROC=0.980 (labels real). Cannot zonation-condition cross-dataset Class B until ACA arm has A-V labels."
+  },
+  "meta": {
+    "donor_oof_baseline": 0.7869318181818181,
+    "donor_oof_ambient_residualized": 0.7244318181818181,
+    "donor_oof_modules_only": 0.5994318181818181,
+    "separability_survives_ambient": true,
+    "modules_alone_supportive": false,
+    "verdict": "SEPARABILITY_ROBUST_TO_AMBIENT"
+  }
+}

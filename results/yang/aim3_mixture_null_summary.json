@@ -1,0 +1,101 @@
+{
+  "hypothesis": "H2_convex_mixture_null",
+  "verdict_primary": "MOSTLY_MIXTURE_WITH_STRUCTURED_RESIDUAL_exploratory",
+  "primary_within_allen": {
+    "contrast": "within_Allen_MCA_leaning_vs_ACA_MCA",
+    "status": "ok",
+    "n_genes_selected": 500,
+    "n_border_donors": 4,
+    "n_aca_donors": 4,
+    "n_mca_donors": 6,
+    "w_ACA": 0.21,
+    "w_MCA": 0.79,
+    "frac_var_explained": 0.9405038247790525,
+    "cosine": 0.9699324801240664,
+    "p_fve_ge_obs": 0.0,
+    "residual_modules": {
+      "BBB_tight_junction": {
+        "obs_residual_module": 0.017560156171934405,
+        "null_mean": -0.056685831671077075,
+        "p_two_sided": 0.17666666666666667
+      },
+      "angiogenesis": {
+        "obs_residual_module": -0.3142307682894171,
+        "null_mean": -0.05390631385116381,
+        "p_two_sided": 0.0
+      },
+      "ECM_basement": {
+        "obs_residual_module": -0.4846575389005658,
+        "null_mean": -0.06376793547525175,
+        "p_two_sided": 0.0
+      },
+      "hypoxia_stress": {
+        "obs_residual_module": -0.2778393166874432,
+        "null_mean": -0.05544194784777723,
+        "p_two_sided": 0.0
+      },
+      "inflammation": {
+        "obs_residual_module": -0.015854101450079008,
+        "null_mean": -0.05952442171520004,
+        "p_two_sided": 0.49666666666666665
+      },
+      "autoregulation_proxy": {
+        "obs_residual_module": -0.39017549658194195,
+        "null_mean": -0.055121971123796645,
+        "p_two_sided": 0.0
+      }
+    }
+  },
+  "aim3_yang_exploratory": {
+    "contrast": "Yang_SFG_ctrl_vs_AllenACA_GarciaMCA",
+    "status": "ok",
+    "n_genes_selected": 400,
+    "n_border_donors": 4,
+    "n_aca_donors": 4,
+    "n_mca_donors": 9,
+    "w_ACA": 0.14,
+    "w_MCA": 0.86,
+    "frac_var_explained": 0.6488945171100987,
+    "cosine": 0.8056361606320045,
+    "p_fve_ge_obs": 0.0,
+    "residual_modules": {
+      "BBB_tight_junction": {
+        "obs_residual_module": -0.1604948870690524,
+        "null_mean": -0.08023457606031703,
+        "p_two_sided": 0.12666666666666668
+      },
+      "angiogenesis": {
+        "obs_residual_module": 0.007349250680041955,
+        "null_mean": -0.07340098340448534,
+        "p_two_sided": 0.08
+      },
+      "ECM_basement": {
+        "obs_residual_module": -0.17193729697541701,
+        "null_mean": -0.07679740559089725,
+        "p_two_sided": 0.056666666666666664
+      },
+      "hypoxia_stress": {
+        "obs_residual_module": -0.2855834120605065,
+        "null_mean": -0.08200941966947697,
+        "p_two_sided": 0.01
+      },
+      "inflammation": {
+        "obs_residual_module": -0.15859591934558417,
+        "null_mean": -0.07169185339590833,
+        "p_two_sided": 0.10666666666666667
+      },
+      "autoregulation_proxy": {
+        "obs_residual_module": -0.057350497847174366,
+        "null_mean": -0.07842009903465863,
+        "p_two_sided": 0.6566666666666666
+      }
+    }
+  },
+  "interpretation_locks": [
+    "Primary H2 is within-Allen MCA_leaning as mixture of ACA+MCA (same technology).",
+    "Yang SFG vs Allen ACA + Garcia MCA is exploratory (batch + enrichment asymmetry).",
+    "Yang SFG is Aim3 borderzone, not confirmatory Class B ACA.",
+    "MIXTURE_NULL_NOT_REJECTED => borderzone largely explained by flanks.",
+    "STRUCTURED_RESIDUAL_H2_COMPATIBLE => leftover module signal after mixture (exploratory)."
+  ]
+}

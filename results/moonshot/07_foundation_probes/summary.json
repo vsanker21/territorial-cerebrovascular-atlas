@@ -1,0 +1,45 @@
+{
+  "honesty_lock": "Methods lever \u2014 with #1 as supplement; alone \u2192 Nat Methods",
+  "probe_harmony_pca": {
+    "auroc": 0.8155338652987556,
+    "n": 583,
+    "n_donors": 51
+  },
+  "probe_gwas_modules": {
+    "auroc": 0.9150398974066686,
+    "n": 583,
+    "n_donors": 51
+  },
+  "gwas_modules_used": [
+    "AD_core",
+    "cerebrovascular_combined",
+    "cSVD_core",
+    "ICH",
+    "ischemic_stroke_HP",
+    "stroke_core",
+    "WMH",
+    "WMH_core"
+  ],
+  "n_shared_genes_mv": 3000,
+  "probe_harmony_plus_gwas": {
+    "auroc": 0.8874204426712264,
+    "n": 583,
+    "n_donors": 51
+  },
+  "alignment_to_multivine_gwas": {
+    "spearman_coef_vs_multivine_enrichment": 0.14285714285714288,
+    "p": 0.735764859879812,
+    "n": 8
+  },
+  "genept_status": "DOWNLOAD_UNAVAILABLE \u2014 Harmony+GWAS probes primary",
+  "probe_harmony_donor_label_shuffle_null": {
+    "auroc": 0.42710746027471047,
+    "n": 583,
+    "n_donors": 51
+  },
+  "probe_gwas_donor_label_shuffle_null": {
+    "auroc": 0.3493670886075949,
+    "n": 583,
+    "n_donors": 51
+  }
+}

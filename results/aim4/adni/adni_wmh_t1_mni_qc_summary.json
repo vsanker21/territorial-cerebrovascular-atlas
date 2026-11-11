@@ -1,0 +1,26 @@
+{
+  "n_input": 267,
+  "n_pass_primary": 155,
+  "n_pass_strict": 100,
+  "n_fail": 112,
+  "fail_reason_counts": {
+    "FAIL_ZERO_WMH": 99,
+    "FAIL_ZERO_WMH;FAIL_UCD_DISCORD": 9,
+    "FAIL_UCD_DISCORD": 4
+  },
+  "flag_low_tv_in_primary": 55,
+  "median_brain_dice_pass": 0.49233326807124683,
+  "median_wmh_voxels_pass": 87.0,
+  "median_frac_assigned_tv_pass": 0.2661290322580645,
+  "mean_frac_ACA_pass": 0.07053751732368146,
+  "mean_frac_MCA_pass": 0.20727714540902384,
+  "mean_frac_PCA_pass": 0.039609636297366614,
+  "mean_frac_VB_pass": 0.007781048269041437,
+  "rules": {
+    "FAIL_ZERO_WMH": "n_wmh_voxels == 0",
+    "FAIL_EMPTY_REG": "FLAIR or T1 nonzero voxels < 15% of MNI brain mask",
+    "FAIL_BRAIN_DICE": "Dice(FLAIR brain, MNI brain) < 0.25",
+    "FAIL_UCD_DISCORD": "UCD TOTAL_WMH >= 10 cc and local WMH voxels < 20",
+    "FLAG_LOW_TV": "assigned TV fraction < 0.10 (sensitivity exclusion only; borderzone may be real)"
+  }
+}

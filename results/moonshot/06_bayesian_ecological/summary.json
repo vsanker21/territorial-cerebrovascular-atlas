@@ -1,0 +1,70 @@
+{
+  "honesty_lock": "ECOLOGICAL_NOT_CONFIRMATORY_MOLECULAR_H3",
+  "label": "ECOLOGICAL_NOT_CONFIRMATORY_MOLECULAR_H3",
+  "shares": {
+    "ATLAS": {
+      "ACA": 0.09539580765748408,
+      "MCA": 0.6918047777895728,
+      "PCA": 0.09122419210558161,
+      "VB": 0.09684975502529339
+    },
+    "ISLES22": {
+      "ACA": 0.0641878132422803,
+      "MCA": 0.4796880674194802,
+      "PCA": 0.12438876560412873,
+      "VB": 0.23493723735887556
+    },
+    "ADNI_WMH": {
+      "ACA": 0.04094874601187502,
+      "MCA": 0.13156538403894646,
+      "PCA": 0.02299435815015665,
+      "VB": 0.004517087946447276
+    }
+  },
+  "models": [
+    {
+      "outcome": "share_ATLAS",
+      "n_territories": 4,
+      "beta_mean": -0.4218336313285523,
+      "beta_sd": 2.8331243696480155,
+      "beta_ci95": [
+        -5.668271999288554,
+        6.04444287705069
+      ],
+      "P_beta_gt_0": 0.40875,
+      "spearman_raw": -0.632455532033676
+    },
+    {
+      "outcome": "share_ISLES22",
+      "n_territories": 4,
+      "beta_mean": -0.07082052731212908,
+      "beta_sd": 2.81491104483941,
+      "beta_ci95": [
+        -5.323060852423531,
+        6.212614336312661
+      ],
+      "P_beta_gt_0": 0.47125,
+      "spearman_raw": -0.9486832980505139
+    },
+    {
+      "outcome": "share_ADNI_WMH",
+      "n_territories": 4,
+      "beta_mean": 0.5877230294490723,
+      "beta_sd": 2.816238329624623,
+      "beta_ci95": [
+        -4.705546178632169,
+        6.837742727187886
+      ],
+      "P_beta_gt_0": 0.58875,
+      "spearman_raw": -0.316227766016838
+    }
+  ],
+  "molecular_cols_used": [
+    "mol_mod_BBB_tight_junction",
+    "mol_mod_angiogenesis",
+    "mol_mod_ECM_basement",
+    "mol_mod_hypoxia_stress",
+    "mol_mod_inflammation"
+  ],
+  "verdict": "Ecological hierarchical posteriors estimated; do NOT interpret as confirmatory molecular H3. Use PPC and beta CI for honest uncertainty at n_territories\u22483\u20134."
+}

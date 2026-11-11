@@ -1,0 +1,19 @@
+{
+  "honesty_lock": "SENSITIVITY_NOT_CONFIRMATORY_H1c \u2014 never report transported ACC as markers",
+  "transport": {
+    "n_pairs_used": 10,
+    "mean_delta_norm": 6.696353435516357,
+    "ot_shift_norm": 3.025606632232666,
+    "delta_vs_ot_cosine": 0.9076751470565796,
+    "matthews_V_vs_P_donor_oof_auroc": 0.9267756407781818
+  },
+  "n_aca_cells": 264,
+  "n_mca_cells": 319,
+  "donor_oof_auroc_raw_ACA_vs_MCA": 0.8155338652987556,
+  "donor_oof_auroc_transported_mean_shift": 0.9568609290396125,
+  "donor_oof_auroc_transported_ot": 0.9511375510591812,
+  "distance_ACA_to_MCA_centroid_raw": 12.111771867180272,
+  "distance_ACA_to_MCA_centroid_transported": 14.260146298808325,
+  "distance_ACA_to_MCA_centroid_ot": 12.69270627091822,
+  "interpretation": "SENSITIVITY ONLY. If transport reduces ACA\u2013MCA distance / AUROC, enrichment batch may inflate separability; if AUROC remains high after transport toward BVE, residual territory-linked state is compatible with hypothesis \u2014 still NOT confirmatory H1c markers."
+}

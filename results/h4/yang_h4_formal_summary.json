@@ -1,0 +1,28 @@
+{
+  "h4_csv_exists": true,
+  "aim3_reports": [
+    "results\\yang\\aim3_h4_soft_vs_tight.md",
+    "results\\yang\\aim3_pseudobulk_report.md"
+  ],
+  "columns": [
+    "disease",
+    "donor_id",
+    "n_cells",
+    "auroc_mean",
+    "auroc_std",
+    "n_SFG",
+    "n_PCA"
+  ],
+  "mean_auroc_by_disease": {
+    "AD": 0.981149814172531,
+    "control": 0.9526990817013431
+  },
+  "overall_mean_auroc": 0.966924447936937,
+  "delta_AD_minus_control": 0.0284507324711879,
+  "n_by_disease": {
+    "control": 4,
+    "AD": 4
+  },
+  "verdict": "H4_NOT_SUPPORTED_ON_YANG_ALONE",
+  "rationale": "Within-donor AUROC high in BOTH control (~0.95) and AD (~0.98); delta AD-control is NOT negative (fails H4 degradation direction). SFG is ACA/MCA borderzone; region=territory confound remains; cross-donor LODO near chance (see yang_h4_lodo_report.md)."
+}

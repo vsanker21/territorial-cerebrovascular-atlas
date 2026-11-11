@@ -1,0 +1,613 @@
+{
+  "started": "2026-07-23T21:24:49",
+  "steps": {
+    "cleanup": [],
+    "crouch_bioproject": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA803255",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\crouch\\PRJNA803255\\PRJNA803255.html",
+        "status": "skipped_exists",
+        "bytes": 54591
+      },
+      {
+        "status": "ok",
+        "bioproject_uid": "803255"
+      },
+      {
+        "status": "sra_search",
+        "count": "7"
+      }
+    ],
+    "crouch_ucsc": [
+      {
+        "url": "https://cells.ucsc.edu/vascular-dev/dataset.json",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\crouch\\ucsc_vascular_dev\\dataset.json",
+        "status": "skipped_exists",
+        "bytes": 12215
+      },
+      {
+        "url": "https://cells.ucsc.edu/vascular-dev/meta.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\crouch\\ucsc_vascular_dev\\meta.tsv",
+        "status": "skipped_exists",
+        "bytes": 21171181
+      },
+      {
+        "url": "https://cells.ucsc.edu/vascular-dev/exprMatrix.tsv.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\crouch\\ucsc_vascular_dev\\exprMatrix.tsv.gz",
+        "status": "skipped_exists",
+        "bytes": 1645559238
+      },
+      {
+        "url": "https://cells.ucsc.edu/vascular-dev/markers.csv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\crouch\\ucsc_vascular_dev\\markers.csv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/vascular-dev/markers.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\crouch\\ucsc_vascular_dev\\markers.tsv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/vascular-dev/matrix.mtx.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\crouch\\ucsc_vascular_dev\\matrix.mtx.gz",
+        "status": "skipped_exists",
+        "bytes": 2136732567
+      }
+    ],
+    "winkler_ucsc": [
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/endothelial/dataset.json",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\endothelial\\dataset.json",
+        "status": "skipped_exists",
+        "bytes": 8704
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/endothelial/meta.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\endothelial\\meta.tsv",
+        "status": "skipped_exists",
+        "bytes": 973015
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/endothelial/exprMatrix.tsv.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\endothelial\\exprMatrix.tsv.gz",
+        "status": "skipped_exists",
+        "bytes": 10755839
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/endothelial/markers.csv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\endothelial\\markers.csv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/endothelial/markers.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\endothelial\\markers.tsv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/endothelial/counts_exprMatrix.tsv.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\endothelial\\counts_exprMatrix.tsv.gz",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/perivascular/dataset.json",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\perivascular\\dataset.json",
+        "status": "skipped_exists",
+        "bytes": 7772
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/perivascular/meta.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\perivascular\\meta.tsv",
+        "status": "skipped_exists",
+        "bytes": 11662093
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/perivascular/exprMatrix.tsv.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\perivascular\\exprMatrix.tsv.gz",
+        "status": "skipped_exists",
+        "bytes": 117055884
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/perivascular/markers.csv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\perivascular\\markers.csv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/perivascular/markers.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\perivascular\\markers.tsv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-endothelial/dataset.json",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-endothelial\\dataset.json",
+        "status": "skipped_exists",
+        "bytes": 11650
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-endothelial/meta.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-endothelial\\meta.tsv",
+        "status": "skipped_exists",
+        "bytes": 2269181
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-endothelial/exprMatrix.tsv.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-endothelial\\exprMatrix.tsv.gz",
+        "status": "skipped_exists",
+        "bytes": 24090197
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-endothelial/markers.csv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-endothelial\\markers.csv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-endothelial/markers.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-endothelial\\markers.tsv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-endothelial/counts_exprMatrix.tsv.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-endothelial\\counts_exprMatrix.tsv.gz",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-immune/dataset.json",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-immune\\dataset.json",
+        "status": "skipped_exists",
+        "bytes": 12524
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-immune/meta.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-immune\\meta.tsv",
+        "status": "skipped_exists",
+        "bytes": 9660342
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-immune/exprMatrix.tsv.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-immune\\exprMatrix.tsv.gz",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-immune/markers.csv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-immune\\markers.csv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-immune/markers.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-immune\\markers.tsv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-immune/matrix.mtx.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-immune\\matrix.mtx.gz",
+        "status": "skipped_exists",
+        "bytes": 404387568
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-perivascular/dataset.json",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-perivascular\\dataset.json",
+        "status": "skipped_exists",
+        "bytes": 9522230
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-perivascular/meta.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-perivascular\\meta.tsv",
+        "status": "skipped_exists",
+        "bytes": 21011628
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-perivascular/exprMatrix.tsv.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-perivascular\\exprMatrix.tsv.gz",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-perivascular/markers.csv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-perivascular\\markers.csv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-perivascular/markers.tsv",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-perivascular\\markers.tsv",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "partial_bytes": 0
+      },
+      {
+        "url": "https://cells.ucsc.edu/adult-brain-vasc/am-perivascular/matrix.mtx.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\winkler\\ucsc\\am-perivascular\\matrix.mtx.gz",
+        "status": "skipped_exists",
+        "bytes": 846655902
+      }
+    ],
+    "gwas": {
+      "GCST005838": [
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005838/",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005838\\index.html",
+          "status": "skipped_exists",
+          "bytes": 1528
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005838/MALIKR_29531354_READMEv2.docx",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005838\\MALIKR_29531354_READMEv2.docx",
+          "status": "skipped_exists",
+          "bytes": 13796
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005838/MEGASTROKE.1.AS.TRANS.out",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005838\\MEGASTROKE.1.AS.TRANS.out",
+          "status": "skipped_exists",
+          "bytes": 331261100
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005838/harmonised/",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005838\\harmonised\\index_d1.html",
+          "status": "skipped_exists",
+          "bytes": 1909
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005838/harmonised/29531354-GCST005838-EFO_0000712-build37.f.tsv.gz",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005838\\harmonised\\29531354-GCST005838-EFO_0000712-build37.f.tsv.gz",
+          "status": "skipped_exists",
+          "bytes": 116253433
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005838/harmonised/29531354-GCST005838-EFO_0000712.h.tsv.gz",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005838\\harmonised\\29531354-GCST005838-EFO_0000712.h.tsv.gz",
+          "status": "skipped_exists",
+          "bytes": 278743243
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005838/harmonised/29531354-GCST005838-EFO_0000712.h.tsv.gz-meta.yaml",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005838\\harmonised\\29531354-GCST005838-EFO_0000712.h.tsv.gz-meta.yaml",
+          "status": "skipped_exists",
+          "bytes": 1441
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005838/harmonised/readme.txt",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005838\\harmonised\\readme.txt",
+          "status": "skipped_exists",
+          "bytes": 7918
+        }
+      ],
+      "GCST005840": [
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005840\\index.html",
+          "status": "skipped_exists",
+          "bytes": 1530
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/MALIKR_29531354_READMEv2.docx",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005840\\MALIKR_29531354_READMEv2.docx",
+          "status": "skipped_exists",
+          "bytes": 13796
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/MEGASTROKE.3.LAS.TRANS.out",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005840\\MEGASTROKE.3.LAS.TRANS.out",
+          "status": "skipped_exists",
+          "bytes": 350277269
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/harmonised/",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005840\\harmonised\\index_d1.html",
+          "status": "skipped_exists",
+          "bytes": 1909
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/harmonised/29531354-GCST005840-EFO_0005524-build37.f.tsv.gz",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005840\\harmonised\\29531354-GCST005840-EFO_0005524-build37.f.tsv.gz",
+          "status": "skipped_exists",
+          "bytes": 125068618
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/harmonised/29531354-GCST005840-EFO_0005524.h.tsv.gz",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005840\\harmonised\\29531354-GCST005840-EFO_0005524.h.tsv.gz",
+          "status": "skipped_exists",
+          "bytes": 291277936
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/harmonised/29531354-GCST005840-EFO_0005524.h.tsv.gz-meta.yaml",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005840\\harmonised\\29531354-GCST005840-EFO_0005524.h.tsv.gz-meta.yaml",
+          "status": "skipped_exists",
+          "bytes": 1480
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST005001-GCST006000/GCST005840/harmonised/readme.txt",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST005840\\harmonised\\readme.txt",
+          "status": "skipped_exists",
+          "bytes": 7918
+        }
+      ],
+      "GCST006906": [
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006906/",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST006906\\index.html",
+          "status": "skipped_exists",
+          "bytes": 1524
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006906/MALIKR_29531354_READMEv2.docx",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST006906\\MALIKR_29531354_READMEv2.docx",
+          "status": "skipped_exists",
+          "bytes": 13796
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006906/MEGASTROKE.1.AS.EUR.out",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST006906\\MEGASTROKE.1.AS.EUR.out",
+          "status": "skipped_exists",
+          "bytes": 356825737
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006906/harmonised/",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST006906\\harmonised\\index_d1.html",
+          "status": "skipped_exists",
+          "bytes": 1909
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006906/harmonised/29531354-GCST006906-EFO_0000712-build37.f.tsv.gz",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST006906\\harmonised\\29531354-GCST006906-EFO_0000712-build37.f.tsv.gz",
+          "status": "skipped_exists",
+          "bytes": 135199005
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006906/harmonised/29531354-GCST006906-EFO_0000712.h.tsv.gz",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST006906\\harmonised\\29531354-GCST006906-EFO_0000712.h.tsv.gz",
+          "status": "skipped_exists",
+          "bytes": 327743563
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006906/harmonised/29531354-GCST006906-EFO_0000712.h.tsv.gz-meta.yaml",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST006906\\harmonised\\29531354-GCST006906-EFO_0000712.h.tsv.gz-meta.yaml",
+          "status": "skipped_exists",
+          "bytes": 802
+        },
+        {
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST006001-GCST007000/GCST006906/harmonised/readme.txt",
+          "dest": "F:\\Cerebrovascular SCS\\data\\raw\\genetics\\GCST006906\\harmonised\\readme.txt",
+          "status": "skipped_exists",
+          "bytes": 7918
+        }
+      ]
+    },
+    "walchli_geo": [
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/soft/GSE256493_family.soft.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\GSE256493_family.soft.gz",
+        "status": "skipped_exists",
+        "bytes": 16349
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/matrix/GSE256493_series_matrix.txt.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\GSE256493_series_matrix.txt.gz",
+        "status": "skipped_exists",
+        "bytes": 13604
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl_index.html",
+        "status": "skipped_exists",
+        "bytes": 6688
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Adult_control_brain_temporal_lobe_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Adult_control_brain_temporal_lobe_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 3567091603
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Adult_control_brain_temporal_lobe_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Adult_control_brain_temporal_lobe_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 3493366138
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Arteriovenous_malformations_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Arteriovenous_malformations_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 1116564279
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Arteriovenous_malformations_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Arteriovenous_malformations_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 375957440
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Fetal_CNS_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Fetal_CNS_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 538969231
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Fetal_CNS_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Fetal_CNS_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 1559677501
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Fetal_periphery_sorted_endothelial_cells_seurat_object_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Fetal_periphery_sorted_endothelial_cells_seurat_object_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 2809571335
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Fetal_periphery_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Fetal_periphery_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 12499319880
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Glioblastoma_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Glioblastoma_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 2954088837
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Glioblastoma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Glioblastoma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 943886602
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Lower_grade_glioma_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Lower_grade_glioma_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 997617135
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Lower_grade_glioma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Lower_grade_glioma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 683871628
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Meningioma_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Meningioma_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 1869805987
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Meningioma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Meningioma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 975636579
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Metastasis_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Metastasis_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 1409483839
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Metastasis_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Metastasis_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 805841501
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Overall_merge_of_all_brain_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Overall_merge_of_all_brain_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 13076298607
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Overall_merge_of_all_brain_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Overall_merge_of_all_brain_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 32285926578
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Overall_merge_of_all_pathological_brain_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Overall_merge_of_all_pathological_brain_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 13948694431
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Overall_merge_of_all_sorted_brain_and_peripehry_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Overall_merge_of_all_sorted_brain_and_peripehry_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 16697965890
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Overall_merge_of_pathological_brain_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Overall_merge_of_pathological_brain_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 8298685357
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_Overall_merge_of_tumor_sorted_endothelial_cells_seurat_object.rds.gz",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Overall_merge_of_tumor_sorted_endothelial_cells_seurat_object.rds.gz",
+        "status": "skipped_exists",
+        "bytes": 7190869058
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_RAW.tar",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_RAW.tar",
+        "status": "skipped_exists",
+        "bytes": 4614799360
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_readme_rds_descriptions.txt",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_readme_rds_descriptions.txt",
+        "status": "skipped_exists",
+        "bytes": 5645
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/GSE256493_scRNAseq_seurat_objects.xlsx",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_scRNAseq_seurat_objects.xlsx",
+        "status": "skipped_exists",
+        "bytes": 10943
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE256nnn/GSE256493/suppl/filelist.txt",
+        "dest": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\filelist.txt",
+        "status": "skipped_exists",
+        "bytes": 25782
+      }
+    ],
+    "walchli_zenodo_10057779": {
+      "status": "skipped_duplicate_of_geo",
+      "geo_proxy": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\GSE256493_Overall_merge_of_all_brain_sorted_endothelial_cells_seurat_object.rds.gz"
+    },
+    "walchli_zenodo_10058563": {
+      "status": "skipped_duplicate_of_geo",
+      "note": "Unsorted merges also present under geo_GSE256493/suppl"
+    },
+    "walchli_cellxgene": {
+      "visibility": "PRIVATE",
+      "n_datasets": 0,
+      "status": "private_or_empty"
+    }
+  },
+  "controlled_access": [
+    {
+      "id": "winkler_dbgap",
+      "accession": "phs002624.v2.p1",
+      "status": "requires_dbGaP"
+    },
+    {
+      "id": "atlas_stroke",
+      "status": "requires_DUA"
+    },
+    {
+      "id": "adni_ukb",
+      "status": "requires_institutional_access"
+    },
+    {
+      "id": "rosmap_radc_covariates",
+      "status": "requires_RADC_DUA"
+    }
+  ],
+  "finished": "2026-07-23T21:24:52"
+}

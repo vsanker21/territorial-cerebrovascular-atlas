@@ -1,0 +1,15 @@
+{
+  "honesty_lock": "Kill Track B language if adult territory \u22a5 developmental state after covariates",
+  "developmental_pc": 21,
+  "developmental_pc_abs_corr": 0.3030518727241023,
+  "pointbiserial_terr_devscore_r": -0.03947250937249959,
+  "pointbiserial_terr_devscore_p": 0.0031792377176272143,
+  "pointbiserial_terr_devscore_resid_batch_r": -0.04716041600178491,
+  "pointbiserial_terr_devscore_resid_batch_p": 0.0004235247050120659,
+  "donor_oof_auroc_with_devPC": 0.9804880445743389,
+  "donor_oof_auroc_without_devPC": 0.9804880445743389,
+  "delta_auroc_devPC": 0.0,
+  "track_B_language": "KILL",
+  "n_fetal": 5000,
+  "n_adult_territory": 5583
+}

@@ -1,0 +1,21 @@
+Sample ID,Condition,NeuroBioBank ID,Brain Region,Sex,Age,PMI,Grade (if applicable),Protocol,Clincial Diagnosis
+191108_BBB_5_snRNA-G2,Control,3345,Caudate,F,82,12.9,,BVE ,"CA, Colon"
+191108_BBB_7_snRNA-G4,Control,4294,Caudate,M,80,19.2,,BVE ,Pancreatic Cancer
+191108_BBB_8_snRNA-G5,Control,4294,Putamen,M,80,19.2,,BVE ,Pancreatic Cancer
+190726_BBB_snRNA-G8,Control,4308,Caudate,M,70,11.8,,BVE ,"Coronary artery disease, Leukemia"
+190726_BBB_snRNA-G9,Control,4308,Putamen,M,70,11.8,,BVE ,"Coronary artery disease, Leukemia"
+190726_BBB_snRNA-G10,Control,4494,Caudate,M,67,12.3,,BVE ,"Unaffected control, CA, prostate, Depression, Dementia, History of Aneurysm, Hypertension, Chronic urinary tract infection"
+190726_BBB_snRNA-G11,Control,4494,Putamen,M,67,12.3,,BVE ,"Unaffected control, CA, prostate, Depression, Dementia, History of Aneurysm, Hypertension, Chronic urinary tract infection"
+191108_BBB_6_snRNA-G3,Control,4621,Caudate,F,83,17.6,,BVE ,"Breast Cancer, Uterine Cancer, Colon Cancer"
+191108_BBB_1_snRNA-F10,HD,2030,Caudate,M,72,11.0,,BVE ,Huntington's Disease
+191108_BBB_2_snRNA-F11,HD,2030,Putamen,M,72,11.0,,BVE ,Huntington's Disease
+191108_BBB_3_snRNA-F12,HD,2665,Caudate,M,56,11.0,3.0,BVE ,Huntington's Disease
+191108_BBB_4_snRNA-G1,HD,2665,Putamen,M,56,11.0,3.0,BVE ,Huntington's Disease
+190726_BBB_snRNA-G12,HD,3730,Caudate,M,61,17.5,2.0,BVE ,Huntington's Disease
+190726_BBB_snRNA-H1,HD,3730,Putamen,M,61,17.5,2.0,BVE ,Huntington's Disease
+190726_BBB_snRNA-H2,HD,3881,Caudate,M,65,9.1,2.0,BVE ,Huntington's Disease
+190726_BBB_snRNA-H3,HD,3881,Putamen,M,65,9.1,2.0,BVE ,Huntington's Disease
+D20-169006,HD,S18409,Caudate,M,75,5.68,1.0,BVE ,Huntington's Disease
+D20-169007,HD,S18409,Putamen,M,75,5.68,1.0,BVE ,Huntington's Disease
+D20-169008,HD,S18409,Caudate,M,75,5.68,1.0,Whole,Huntington's Disease
+D20-169009,HD,S18409,Putamen,M,75,5.68,1.0,Whole,Huntington's Disease

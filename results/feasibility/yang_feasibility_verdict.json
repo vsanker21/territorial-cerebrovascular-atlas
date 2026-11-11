@@ -1,0 +1,8 @@
+{
+  "hippocampus_pca_dominant": true,
+  "superior_frontal_anterior_circulation": true,
+  "superior_frontal_single_territory_dominant": true,
+  "within_donor_contrast_viable": true,
+  "draft_plan_pca_vs_mca_framing_accurate": false,
+  "recommended_yang_contrast_framing": "PCA (hippocampus) vs ACA (superior frontal)"
+}

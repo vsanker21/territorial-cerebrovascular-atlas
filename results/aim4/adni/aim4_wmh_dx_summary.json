@@ -1,0 +1,61 @@
+{
+  "strata": [
+    {
+      "stratum": "all_primary",
+      "n": 155,
+      "mean_share_MCA": 0.20727714540902384,
+      "mean_share_ACA": 0.07053751732368146,
+      "frac_subjects_MCA_gt_ACA": 0.45161290322580644,
+      "median_TOTAL_WMH_ucd": 8.159,
+      "median_n_wmh": 87.0
+    },
+    {
+      "stratum": "CN",
+      "n": 79,
+      "mean_share_MCA": 0.23586045709949885,
+      "mean_share_ACA": 0.07453816953700569,
+      "frac_subjects_MCA_gt_ACA": 0.4810126582278481,
+      "median_TOTAL_WMH_ucd": 7.10018,
+      "median_n_wmh": 75.0
+    },
+    {
+      "stratum": "MCI",
+      "n": 67,
+      "mean_share_MCA": 0.16243620383640628,
+      "mean_share_ACA": 0.062193734968283565,
+      "frac_subjects_MCA_gt_ACA": 0.40298507462686567,
+      "median_TOTAL_WMH_ucd": 9.212,
+      "median_n_wmh": 95.0
+    },
+    {
+      "stratum": "Dementia",
+      "n": 9,
+      "mean_share_MCA": 0.29019508561100754,
+      "mean_share_ACA": 0.09753550543024227,
+      "frac_subjects_MCA_gt_ACA": 0.5555555555555556,
+      "median_TOTAL_WMH_ucd": 15.945,
+      "median_n_wmh": 109.0
+    },
+    {
+      "stratum": "other",
+      "n": 0
+    },
+    {
+      "stratum": "unknown",
+      "n": 0
+    }
+  ],
+  "tests": {
+    "MCA_share_CN_vs_MCI": {
+      "U": 2997.0,
+      "p": 0.1517396202128571
+    }
+  },
+  "dx_match_rate": 1.0,
+  "interpretation_locks": [
+    "Descriptive sensitivity only.",
+    "Primary geography lock remains mean MCA share > mean ACA share on primary QC set.",
+    "Subject-level MCA>ACA fraction may be near 50% even when mean share is MCA-dominant.",
+    "Dementia n is exploratory if small."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "cell_cv_auroc_mean": 0.8264763963761605,
+  "cell_cv_auroc_std": 0.03891247682396497,
+  "donor_level_oof_auroc": 0.7869318181818181,
+  "n_donors_scored": 38,
+  "n_aca_donors": 18,
+  "n_mca_donors": 36,
+  "batch_lobo_auroc_mean": NaN,
+  "n_batch_lobo": 0,
+  "n_aca": 264,
+  "n_mca": 319,
+  "by_batch": {
+    "Garcia_exvivo": 207,
+    "Allen_ACC": 165,
+    "Garcia_ROSMAP": 112,
+    "LIBD_dACC_globus": 87,
+    "Linnarsson": 12
+  },
+  "verdict": "SUPPORTIVE_transferable_ClassB_signal"
+}

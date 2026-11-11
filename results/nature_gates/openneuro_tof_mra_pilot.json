@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-18",
+  "dataset": "OpenNeuro ds005096 (RBWH TOF-MRA intracranial aneurysm)",
+  "n_participants_tsv": 63,
+  "pilot_subjects": [
+    "sub-000",
+    "sub-001",
+    "sub-002"
+  ],
+  "role": "METHODS_CALIBRATION_ONLY",
+  "not_confirmatory_track_c": "No territorial stroke/WMH lesion maps; cannot test burden ~ angio + territory.",
+  "subject_metrics": [
+    {
+      "path": "derivatives\\sub-000\\ses-20190420\\anat\\Nifti with Parent Artery\\sub-000_ses-20190420_acq-Segmentation_Aneurysm-with-Parent-Artery.nii",
+      "status": "ok",
+      "shape": [
+        512,
+        512,
+        114
+      ],
+      "voxel_mm": [
+        0.3125,
+        0.3125,
+        0.44999977946281433
+      ],
+      "n_foreground_voxels": 8117,
+      "volume_mm3": 356.7039201334119,
+      "intensity_mean_fg": 1.0,
+      "subject": "sub-000"
+    },
+    {
+      "path": "derivatives\\sub-001\\ses-20190607\\anat\\Nifti with Parent Artery\\sub-001_ses-20190607_acq-Segmentation_Aneurysm-with-Parent-Artery.nii",
+      "status": "ok",
+      "shape": [
+        512,
+        512,
+        114
+      ],
+      "voxel_mm": [
+        0.3125,
+        0.3125,
+        0.40000003576278687
+      ],
+      "n_foreground_voxels": 8413,
+      "volume_mm3": 328.6328438408673,
+      "intensity_mean_fg": 1.0,
+      "subject": "sub-001"
+    },
+    {
+      "path": "derivatives\\sub-002\\ses-20200324\\anat\\Nifti with Parent Artery\\sub-002_ses-20200324_acq-Segmentation_Aneurysm-with-Parent-Artery.nii",
+      "status": "ok",
+      "shape": [
+        696,
+        618,
+        168
+      ],
+      "voxel_mm": [
+        0.2604166567325592,
+        0.2604166567325592,
+        0.3199999928474426
+      ],
+      "n_foreground_voxels": 3072,
+      "volume_mm3": 66.66666412353516,
+      "intensity_mean_fg": 1.0,
+      "subject": "sub-002"
+    }
+  ],
+  "verdict": "OPENNEURO_TOF_PILOT_PARTIAL__METHODS_ONLY",
+  "next_confirmatory": "ISLES'24 CTA + CoW/LVO masks + follow-up lesion masks (subject-level angio + lesions)"
+}

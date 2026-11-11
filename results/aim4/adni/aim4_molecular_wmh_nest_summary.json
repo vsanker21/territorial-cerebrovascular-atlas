@@ -1,0 +1,66 @@
+{
+  "design": "ecological_allen_modules_x_ADNI_wmh_share",
+  "verdict": "EXPLORATORY_ECOLOGICAL_n3__NOT_CONFIRMATORY_H3",
+  "nested_r2": {
+    "n_territories": 3,
+    "territories": [
+      "ACA",
+      "MCA",
+      "PCA"
+    ],
+    "r2_geometry_only": 1.0,
+    "r2_modules_only": 1.0,
+    "r2_geometry_plus_modules": 1.0,
+    "share_column_used": "mean_wmh_share",
+    "note": "n=3 ecological points; descriptive only, not confirmatory H3"
+  },
+  "spearman": [
+    {
+      "feature": "mod_BBB_tight_junction",
+      "spearman_rho_vs_wmh_share": -0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mod_angiogenesis",
+      "spearman_rho_vs_wmh_share": -0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mod_ECM_basement",
+      "spearman_rho_vs_wmh_share": 0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mod_hypoxia_stress",
+      "spearman_rho_vs_wmh_share": 0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mod_inflammation",
+      "spearman_rho_vs_wmh_share": -0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mra_vessel_probability",
+      "spearman_rho_vs_wmh_share": 0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mra_vessel_radius",
+      "spearman_rho_vs_wmh_share": 0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    }
+  ],
+  "interpretation_locks": [
+    "Ecological nest only (n_territories=3); VB molecular arm absent.",
+    "NOT confirmatory H3.",
+    "ADNI geography nest remains the frozen imaging claim."
+  ]
+}

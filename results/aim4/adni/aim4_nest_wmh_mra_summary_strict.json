@@ -1,0 +1,76 @@
+{
+  "analysis_set": "strict",
+  "n_analysis": 100,
+  "n_primary_qc": 155,
+  "n_strict_qc": 100,
+  "spearman_local_vs_ucd": {
+    "rho": 0.572749803417405,
+    "p": 4.770003139671979e-10
+  },
+  "ols_r2_TOTAL_WMH": {
+    "M0_demographics": {
+      "r2": 0.029016544818118106,
+      "n": 100
+    },
+    "M1_mra_geometry_null": {
+      "r2": 0.0,
+      "n": 100,
+      "note": "atlas constants identical across subjects"
+    },
+    "M2_geometry_plus_tv_burden": {
+      "r2": 0.44909155557154434,
+      "n": 100
+    },
+    "M3_demographics_plus_tv_burden": {
+      "r2": 0.47696471873274304,
+      "n": 100
+    },
+    "delta_M3_minus_M0": 0.44794817391462494
+  },
+  "wilcoxon_MCA_vs_ACA_burden": {
+    "stat": 1927.0,
+    "p": 0.24930255580024263
+  },
+  "territory_means": [
+    {
+      "territory": "ACA",
+      "mean_wmh_burden": 0.0023280581268039944,
+      "median_wmh_burden": 0.0006469592913306999,
+      "mean_wmh_share": 0.1073560836173387,
+      "mra_vessel_probability_mean": 1.3135272575059902,
+      "mra_vessel_radius_mean": 0.2395505978297445
+    },
+    {
+      "territory": "MCA",
+      "mean_wmh_burden": 0.0014369172971202679,
+      "median_wmh_burden": 0.00047391731435360003,
+      "mean_wmh_share": 0.3182347685091085,
+      "mra_vessel_probability_mean": 0.4991018483012449,
+      "mra_vessel_radius_mean": 0.1925292104255501
+    },
+    {
+      "territory": "PCA",
+      "mean_wmh_burden": 0.0006016708140774859,
+      "median_wmh_burden": 0.0,
+      "mean_wmh_share": 0.06087110334474868,
+      "mra_vessel_probability_mean": 0.2909469326030583,
+      "mra_vessel_radius_mean": 0.1778659892711951
+    },
+    {
+      "territory": "VB",
+      "mean_wmh_burden": 0.000208857808857807,
+      "median_wmh_burden": 0.0,
+      "mean_wmh_share": 0.011312593320951234,
+      "mra_vessel_probability_mean": 0.3347378249812331,
+      "mra_vessel_radius_mean": 0.0724084638273208
+    }
+  ],
+  "interpretation_locks": [
+    "MRA geometry is atlas-level (not subject-specific); M1 R^2 near 0 is expected.",
+    "M3 vs M0 (territorial WMH burden predicting UCD TOTAL_WMH) is a partition/concordance check, not H3 molecular proof.",
+    "Local WMH is exploratory vs UCD clinical volumes; report Spearman concordance.",
+    "Descriptive geography: MCA-dominant WMH share in this QC-pass ADNI set.",
+    "ATLAS stroke lesions remain a separate arm (passphrase-gated).",
+    "Primary lock is qc_primary at z=1.5; strict excludes FLAG_LOW_TV (sensitivity only)."
+  ]
+}

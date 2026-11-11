@@ -1,0 +1,17 @@
+{
+  "n_flair_series_3t": 8486,
+  "n_flair_subjects_3t": 2472,
+  "n_t1w_series_3t": 14691,
+  "n_cohort_primary_flair": 2472,
+  "n_with_ucd_wmh": 2420,
+  "n_with_sex": 2471,
+  "flair_acq_type": {
+    "2D": 4712,
+    "3D": 3774
+  },
+  "spatial_wmh_masks_on_disk": false,
+  "path": "local_FLAIR_segmentation_for_territory_fractions",
+  "n_with_phc_wmh": 2349,
+  "adsl_joined": false,
+  "dxsum_joined": true
+}

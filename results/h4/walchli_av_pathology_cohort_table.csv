@@ -1,0 +1,4 @@
+"cohort","file","n_cells","n_genes","path_values","cluster_col","n_ec_clusters","n_donors_proxy","donor_col"
+"adult_temporal_sorted","adult_temporal_sorted.rds",76125,26666,"TL","ECclusters",12,9,"Patient"
+"avm_sorted","avm_sorted.rds",20305,3000,"AVM","ECclusters",12,5,"Patient"
+"lgg_sorted","lgg_sorted.rds",17373,26666,"LGG","ECclusters",13,6,"Patient"

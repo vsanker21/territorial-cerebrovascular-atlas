@@ -1,0 +1,79 @@
+{
+  "analysis_set": "primary",
+  "n_analysis": 1445,
+  "n_primary_qc": 1445,
+  "n_strict_qc": 1444,
+  "median_lesion_voxels": 7449.0,
+  "dominant_territory_counts": {
+    "MCA": 1114,
+    "VB": 139,
+    "PCA": 113,
+    "ACA": 78,
+    "nan": 1
+  },
+  "ols_r2_n_lesion_voxels": {
+    "M0_chronicity": {
+      "r2": 0.0,
+      "n": 1445
+    },
+    "M1_mra_geometry_null": {
+      "r2": 0.0,
+      "n": 1445,
+      "note": "atlas constants identical across subjects"
+    },
+    "M2_geometry_plus_tv_burden": {
+      "r2": 0.9984005535936659,
+      "n": 1445
+    },
+    "M3_chronicity_or_burden": {
+      "r2": 0.9984005535936659,
+      "n": 1445
+    },
+    "delta_M3_minus_M0": 0.9984005535936659
+  },
+  "wilcoxon_MCA_vs_ACA_burden": {
+    "stat": 114138.0,
+    "p": 1.5898988135371219e-121
+  },
+  "territory_means": [
+    {
+      "territory": "ACA",
+      "mean_lesion_burden": 0.01102788640590345,
+      "median_lesion_burden": 0.0001872197861752,
+      "mean_lesion_share": 0.09585793267727812,
+      "mra_vessel_probability_mean": 1.3135272575059902,
+      "mra_vessel_radius_mean": 0.2395505978297445
+    },
+    {
+      "territory": "MCA",
+      "mean_lesion_burden": 0.03267603791129046,
+      "median_lesion_burden": 0.0054405327747791,
+      "mean_lesion_share": 0.6951560812113908,
+      "mra_vessel_probability_mean": 0.4991018483012449,
+      "mra_vessel_radius_mean": 0.1925292104255501
+    },
+    {
+      "territory": "PCA",
+      "mean_lesion_burden": 0.006737059582684708,
+      "median_lesion_burden": 6.65541900854223e-05,
+      "mean_lesion_share": 0.09166610860713116,
+      "mra_vessel_probability_mean": 0.2909469326030583,
+      "mra_vessel_radius_mean": 0.1778659892711951
+    },
+    {
+      "territory": "VB",
+      "mean_lesion_burden": 0.002544943669925092,
+      "median_lesion_burden": 0.0,
+      "mean_lesion_share": 0.09731892338873771,
+      "mra_vessel_probability_mean": 0.3347378249812331,
+      "mra_vessel_radius_mean": 0.0724084638273208
+    }
+  ],
+  "interpretation_locks": [
+    "MRA geometry is atlas-level (not subject-specific); M1 R^2 near 0 is expected.",
+    "M3 with territorial lesion burdens predicting total lesion volume is a partition-style check, not molecular H3.",
+    "ATLAS is the independent stroke outcome arm (anti-circularity vs Liu construction).",
+    "Molecular H3 still requires control-trained vascular transcriptomic features.",
+    "Descriptive result: report dominant-territory counts and mean lesion shares."
+  ]
+}

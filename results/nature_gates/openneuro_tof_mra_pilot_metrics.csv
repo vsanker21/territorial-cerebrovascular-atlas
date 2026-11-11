@@ -1,0 +1,4 @@
+path,status,shape,voxel_mm,n_foreground_voxels,volume_mm3,intensity_mean_fg,subject
+derivatives\sub-000\ses-20190420\anat\Nifti with Parent Artery\sub-000_ses-20190420_acq-Segmentation_Aneurysm-with-Parent-Artery.nii,ok,"[512, 512, 114]","[0.3125, 0.3125, 0.44999977946281433]",8117,356.7039201334119,1.0,sub-000
+derivatives\sub-001\ses-20190607\anat\Nifti with Parent Artery\sub-001_ses-20190607_acq-Segmentation_Aneurysm-with-Parent-Artery.nii,ok,"[512, 512, 114]","[0.3125, 0.3125, 0.40000003576278687]",8413,328.6328438408673,1.0,sub-001
+derivatives\sub-002\ses-20200324\anat\Nifti with Parent Artery\sub-002_ses-20200324_acq-Segmentation_Aneurysm-with-Parent-Artery.nii,ok,"[696, 618, 168]","[0.2604166567325592, 0.2604166567325592, 0.3199999928474426]",3072,66.66666412353516,1.0,sub-002

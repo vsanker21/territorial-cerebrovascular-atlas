@@ -1,0 +1,58 @@
+{
+  "n_endo": 4345,
+  "by_subtype": {
+    "capEndo": 2941,
+    "vEndo": 1055,
+    "aEndo": 349
+  },
+  "by_arm": {
+    "PFC_MCA_leaning": 2524,
+    "PCA_medial_temporal": 751,
+    "MCA_isocortex": 559,
+    "other": 511
+  },
+  "strata": [
+    {
+      "stratum": "all",
+      "contrast": "MCA_isocortex_vs_PFC_same_territory_null",
+      "n": 3083,
+      "n_mca_iso": 559,
+      "n_pfc": 2524,
+      "cell_cv_auroc": 0.7313560160483782,
+      "cell_cv_std": 0.022851624147805366,
+      "donor_oof_auroc": 0.4160919540229885
+    },
+    {
+      "stratum": "capEndo",
+      "contrast": "MCA_isocortex_vs_PFC_same_territory_null",
+      "n": 2204,
+      "n_mca_iso": 390,
+      "n_pfc": 1814,
+      "cell_cv_auroc": 0.7141236184430559,
+      "cell_cv_std": 0.037209286299934835,
+      "donor_oof_auroc": 0.5026881720430108
+    },
+    {
+      "stratum": "aEndo",
+      "contrast": "MCA_isocortex_vs_PFC_same_territory_null",
+      "n": 234,
+      "n_mca_iso": 53,
+      "n_pfc": 181,
+      "cell_cv_auroc": 0.6901474201474201,
+      "cell_cv_std": 0.06979550703394408,
+      "donor_oof_auroc": 0.44642857142857145
+    },
+    {
+      "stratum": "vEndo",
+      "contrast": "MCA_isocortex_vs_PFC_same_territory_null",
+      "n": 645,
+      "n_mca_iso": 116,
+      "n_pfc": 529,
+      "cell_cv_auroc": 0.7459898824172819,
+      "cell_cv_std": 0.07695266861078232,
+      "donor_oof_auroc": 0.5043859649122807
+    }
+  ],
+  "verdict": "NULL_REPLICATION_ZONATION_STRATIFIED",
+  "claim": "This is a same-territory region null (both MCA-leaning). It does not test ACA vs MCA. Use only to show residual region effects after zonation strata."
+}

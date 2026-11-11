@@ -1,0 +1,84 @@
+{
+  "A24": {
+    "tv_dominant": "ACA",
+    "tv_p_ACA": 1.0,
+    "tv_p_MCA": 0.0,
+    "tv_p_PCA": 0.0,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 1.0,
+    "tv_assignment_fraction": 0.7241412396852811,
+    "ho_missing": [],
+    "tv_source": "TerritoryVoxels_HO",
+    "ho_labels": [
+      "Cingulate Gyrus, anterior division"
+    ],
+    "aca_pool": true,
+    "role": "primary_ACA_cingulate"
+  },
+  "A32": {
+    "tv_dominant": "ACA",
+    "tv_p_ACA": 0.9999598167644459,
+    "tv_p_MCA": 4.018323555412682e-05,
+    "tv_p_PCA": 0.0,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 0.9999598167644459,
+    "tv_assignment_fraction": 0.5643595791001451,
+    "ho_missing": [],
+    "tv_source": "TerritoryVoxels_HO",
+    "ho_labels": [
+      "Paracingulate Gyrus",
+      "Cingulate Gyrus, anterior division"
+    ],
+    "aca_pool": true,
+    "role": "ACA_dorsal_MFC"
+  },
+  "A25": {
+    "tv_dominant": "ACA",
+    "tv_p_ACA": 1.0,
+    "tv_p_MCA": 0.0,
+    "tv_p_PCA": 0.0,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 1.0,
+    "tv_assignment_fraction": 0.5293645251396648,
+    "ho_missing": [],
+    "tv_source": "TerritoryVoxels_HO",
+    "ho_labels": [
+      "Frontal Medial Cortex",
+      "Cingulate Gyrus, anterior division"
+    ],
+    "aca_pool": true,
+    "role": "ACA_subcallosal_borderline"
+  },
+  "A23": {
+    "tv_dominant": "ACA",
+    "tv_p_ACA": 0.8679953106682298,
+    "tv_p_MCA": 0.0,
+    "tv_p_PCA": 0.13200468933177023,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 0.8679953106682298,
+    "tv_assignment_fraction": 0.4436238818389848,
+    "ho_missing": [],
+    "tv_source": "TerritoryVoxels_HO",
+    "ho_labels": [
+      "Cingulate Gyrus, posterior division"
+    ],
+    "aca_pool": true,
+    "role": "ACA_caudal_cingulate"
+  },
+  "A14": {
+    "tv_dominant": "MCA",
+    "tv_p_ACA": 0.0,
+    "tv_p_MCA": 1.0,
+    "tv_p_PCA": 0.0,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 1.0,
+    "tv_assignment_fraction": 0.4048177445641372,
+    "ho_missing": [],
+    "tv_source": "TerritoryVoxels_HO",
+    "ho_labels": [
+      "Frontal Orbital Cortex"
+    ],
+    "aca_pool": false,
+    "role": "EXCLUDE_MCA_medial_OFC"
+  }
+}

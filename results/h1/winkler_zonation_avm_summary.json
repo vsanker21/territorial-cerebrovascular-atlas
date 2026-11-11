@@ -1,0 +1,42 @@
+{
+  "region_metadata": false,
+  "territory_test": "NO-GO",
+  "note": "Winkler UCSC has A-V clusters but no brain-region/TerritoryVoxels labels.",
+  "ctrl_endothelial": {
+    "n": 5018,
+    "cluster_counts": {
+      "Venule": 1286,
+      "Art1": 1175,
+      "Art2": 874,
+      "Art3": 867,
+      "Venous": 647,
+      "Cap": 169
+    },
+    "cap_vs_arterial_cell_cv_auroc": 0.9999175539009514,
+    "cap_vs_arterial_cell_cv_std": 0.00012093100187210749,
+    "samples": {
+      "CTRL099_21": 1677,
+      "CTRL086": 1596,
+      "CTRL085": 1271,
+      "CTRL099_22": 386,
+      "CTRL12": 88
+    }
+  },
+  "am_endothelial_avm_vs_ctrl": {
+    "n": 9541,
+    "n_avm": 4601,
+    "n_ctrl": 4940,
+    "cell_cv_auroc": 0.9999843777503961,
+    "cell_cv_std": 2.9052515700267008e-05,
+    "cluster_counts": {
+      "Art1": 2215,
+      "Venous": 2036,
+      "Art2": 1627,
+      "Venule": 1546,
+      "Art3": 1374,
+      "Nidus": 743
+    },
+    "claim": "EXPLORATORY_disease_vs_control_NOT_territory"
+  },
+  "verdict": "ZONATION_PROGRAMS_PRESENT_TERRITORY_NO_GO"
+}

@@ -1,0 +1,14 @@
+{
+  "n_subjects": 155,
+  "mean_frac_wmh_bz_gt_0.5": 0.03555134795338036,
+  "mean_frac_wmh_bz_gt_0.25": 0.050350267060615995,
+  "mean_bz_prob_in_wmh": 0.2767542029420535,
+  "interpretation_locks": [
+    "Sensitivity only; primary lock remains TerritoryVoxels major shares.",
+    "High borderzone overlap can help explain unlabeled / FLAG_LOW_TV WMH."
+  ],
+  "spearman_bz_gt0.5_vs_unassigned": {
+    "rho": -0.14001910847806243,
+    "p": 0.08226651708324856
+  }
+}

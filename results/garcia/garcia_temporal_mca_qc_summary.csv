@@ -1,0 +1,57 @@
+SampleID,tissue_location,vascular_lineage,n_cells
+D20-125061,Left temporal tip,endo,357
+D20-125061,Left temporal tip,fib,3023
+D20-125061,Left temporal tip,peri,1436
+D20-125061,Left temporal tip,smc,400
+D20-125062,Right temporal tip,endo,430
+D20-125062,Right temporal tip,fib,1340
+D20-125062,Right temporal tip,peri,751
+D20-125062,Right temporal tip,smc,265
+D20-125063,Left temporal lobe,endo,1134
+D20-125063,Left temporal lobe,fib,1365
+D20-125063,Left temporal lobe,peri,1141
+D20-125063,Left temporal lobe,smc,611
+D20-125064,"Right lateral temporal lobe,  medial temporal lobe",endo,697
+D20-125064,"Right lateral temporal lobe,  medial temporal lobe",fib,2810
+D20-125064,"Right lateral temporal lobe,  medial temporal lobe",peri,1174
+D20-125064,"Right lateral temporal lobe,  medial temporal lobe",smc,1686
+D20-125065,"Left anterior temporal lobe, left medial temporal lobe",endo,1552
+D20-125065,"Left anterior temporal lobe, left medial temporal lobe",fib,2692
+D20-125065,"Left anterior temporal lobe, left medial temporal lobe",peri,2314
+D20-125065,"Left anterior temporal lobe, left medial temporal lobe",smc,862
+D20-125066,Left temporal tip,endo,280
+D20-125066,Left temporal tip,fib,880
+D20-125066,Left temporal tip,peri,288
+D20-125066,Left temporal tip,smc,733
+D20-125067,Posterior temporal lobe,endo,1263
+D20-125067,Posterior temporal lobe,fib,1865
+D20-125067,Posterior temporal lobe,peri,1366
+D20-125067,Posterior temporal lobe,smc,639
+D20-125068,Left anterior temporal lobe,endo,326
+D20-125068,Left anterior temporal lobe,fib,1993
+D20-125068,Left anterior temporal lobe,peri,830
+D20-125068,Left anterior temporal lobe,smc,455
+D20-125069,Left temporal lobe,endo,1565
+D20-125069,Left temporal lobe,fib,2295
+D20-125069,Left temporal lobe,peri,1251
+D20-125069,Left temporal lobe,smc,1076
+D20-125070,Left Temporal Fissure,endo,573
+D20-125070,Left Temporal Fissure,fib,2550
+D20-125070,Left Temporal Fissure,peri,530
+D20-125070,Left Temporal Fissure,smc,1133
+D20-125071,Left Anterior Temporal Tip,endo,564
+D20-125071,Left Anterior Temporal Tip,fib,2256
+D20-125071,Left Anterior Temporal Tip,peri,830
+D20-125071,Left Anterior Temporal Tip,smc,2558
+D20-125072,Anterior Lateral Temporal Lobe,endo,1636
+D20-125072,Anterior Lateral Temporal Lobe,fib,3313
+D20-125072,Anterior Lateral Temporal Lobe,peri,1646
+D20-125072,Anterior Lateral Temporal Lobe,smc,1551
+D20-125073,Left Temporal Lobe,endo,1191
+D20-125073,Left Temporal Lobe,fib,3370
+D20-125073,Left Temporal Lobe,peri,1573
+D20-125073,Left Temporal Lobe,smc,1048
+D20-169016,Left Temporal Tip,endo,230
+D20-169016,Left Temporal Tip,fib,1492
+D20-169016,Left Temporal Tip,peri,1166
+D20-169016,Left Temporal Tip,smc,396

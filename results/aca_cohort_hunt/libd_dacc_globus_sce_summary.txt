@@ -1,0 +1,20 @@
+source	sce_Final.Rdata (jhpce#dACC_spatial)
+n_all	35161
+n_Endo	89
+n_VLMC	159
+annotation	cellType_azimuth
+
+Endo VLMC 
+  89  159 
+        
+         Endo VLMC
+  Br2720    7   11
+  Br2743    4    9
+  Br3942    8    5
+  Br6423    3    4
+  Br6432   12   19
+  Br6471   11   16
+  Br6522   21   56
+  Br8325    6   10
+  Br8492    9   17
+  Br8667    8   12

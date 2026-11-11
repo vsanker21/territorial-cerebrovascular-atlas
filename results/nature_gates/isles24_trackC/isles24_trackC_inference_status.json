@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-18",
+  "n": 78,
+  "primary_outcome": "lesion_share_MCA",
+  "primary_delta_age_full_minus_age": {
+    "outcome": "lesion_share_MCA",
+    "contrast": "age_full_minus_age",
+    "n": 78,
+    "R2_base": 0.008145226953355289,
+    "R2_full": 0.03284376383876475,
+    "delta": 0.02469853688540946,
+    "ci95": [
+      0.009610298421491106,
+      0.13749107365184077
+    ],
+    "p_boot_delta_le_0": 0.0,
+    "ci_excludes_0": true
+  },
+  "mca_models": [
+    {
+      "outcome": "lesion_share_MCA",
+      "model": "age",
+      "R2_in": 0.008145226953355289,
+      "R2_cv5": -0.05986270892504608,
+      "n": 78,
+      "p_features": 1
+    },
+    {
+      "outcome": "lesion_share_MCA",
+      "model": "age_LVOvol",
+      "R2_in": 0.008553516584506204,
+      "R2_cv5": -0.0749078076227172,
+      "n": 78,
+      "p_features": 2
+    },
+    {
+      "outcome": "lesion_share_MCA",
+      "model": "age_CoWcomplete",
+      "R2_in": 0.013830448631869552,
+      "R2_cv5": -0.06737623236341905,
+      "n": 78,
+      "p_features": 2
+    },
+    {
+      "outcome": "lesion_share_MCA",
+      "model": "age_CoWMCA",
+      "R2_in": 0.03174798782957289,
+      "R2_cv5": -0.03385468046859552,
+      "n": 78,
+      "p_features": 2
+    },
+    {
+      "outcome": "lesion_share_MCA",
+      "model": "age_angio",
+      "R2_in": 0.03221610754668358,
+      "R2_cv5": -0.07135880644840498,
+      "n": 78,
+      "p_features": 4
+    },
+    {
+      "outcome": "lesion_share_MCA",
+      "model": "age_full",
+      "R2_in": 0.03284376383876475,
+      "R2_cv5": -0.10651124201961792,
+      "n": 78,
+      "p_features": 5
+    }
+  ],
+  "verdict": "EXPLORATORY_ANGIO_DELTA_CI_EXCLUDES_0__NOT_CONFIRMATORY_ALONE",
+  "locks": [
+    "ArterialAtlas_level2 not TV_BMM",
+    "Subject-level CoW/LVO not atlas-constant MRA",
+    "Not confirmatory Nature Track C alone (n, registration QC audit, replication)",
+    "TRCI/BCI excluded"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "baseline": {
+    "donor_oof_auroc": 0.7869318181818181,
+    "cell_cv_auroc_mean": 0.8264763963761605,
+    "cell_cv_auroc_std": 0.03891247682396497,
+    "n_aca": 264,
+    "n_mca": 319,
+    "n_aca_donors": 16,
+    "n_mca_donors": 22
+  },
+  "drop_Allen_ACC": {
+    "donor_oof_auroc": 0.7462121212121211,
+    "cell_cv_auroc_mean": 0.6802605472013367,
+    "cell_cv_auroc_std": 0.03430425791433309,
+    "n_aca": 99,
+    "n_mca": 319,
+    "n_aca_donors": 12,
+    "n_mca_donors": 22
+  },
+  "drop_LIBD_dACC_globus": {
+    "donor_oof_auroc": 0.6666666666666667,
+    "cell_cv_auroc_mean": 0.9106429122574955,
+    "cell_cv_auroc_std": 0.029830169242408076,
+    "n_aca": 177,
+    "n_mca": 319,
+    "n_aca_donors": 6,
+    "n_mca_donors": 22
+  },
+  "drop_Linnarsson": {
+    "donor_oof_auroc": 0.8928571428571428,
+    "cell_cv_auroc_mean": 0.8377887293806412,
+    "cell_cv_auroc_std": 0.03488081082197578,
+    "n_aca": 252,
+    "n_mca": 319,
+    "n_aca_donors": 14,
+    "n_mca_donors": 22
+  },
+  "only_Allen_ACC": {
+    "donor_oof_auroc": 1.0,
+    "cell_cv_auroc_mean": 0.943655303030303,
+    "cell_cv_auroc_std": 0.022238671526169287,
+    "n_aca": 165,
+    "n_mca": 319,
+    "n_aca_donors": 4,
+    "n_mca_donors": 22
+  },
+  "only_LIBD_dACC_globus": {
+    "donor_oof_auroc": 0.7227272727272728,
+    "cell_cv_auroc_mean": 0.6716062350866272,
+    "cell_cv_auroc_std": 0.0443217635281845,
+    "n_aca": 87,
+    "n_mca": 319,
+    "n_aca_donors": 10,
+    "n_mca_donors": 22
+  },
+  "oligo_ambient_filter": {
+    "donor_oof_auroc": 0.8464285714285713,
+    "cell_cv_auroc_mean": 0.7960351159324202,
+    "cell_cv_auroc_std": 0.060260938987501386,
+    "n_aca": 209,
+    "n_mca": 191,
+    "n_retained": 400,
+    "n_dropped": 183
+  },
+  "balanced_subsample": {
+    "donor_oof_auroc": 0.7999999999999999,
+    "cell_cv_auroc_mean": 0.8114426157679985,
+    "cell_cv_auroc_std": 0.024510321558587896,
+    "n_per_arm": 264
+  },
+  "pseudobulk_de": {
+    "n_genes_tested": 3000,
+    "n_fdr_05": 1372,
+    "n_fdr_10": 1831,
+    "top_mca": [
+      {
+        "gene": "ADAMTS9",
+        "delta": 0.5851484425143392,
+        "padj": 0.03892633935200233
+      },
+      {
+        "gene": "RPGR",
+        "delta": 0.4686188632491033,
+        "padj": 0.046083677322496054
+      },
+      {
+        "gene": "IL4R",
+        "delta": 0.37906049047491563,
+        "padj": 0.11527374127984687
+      },
+      {
+        "gene": "CEBPD",
+        "delta": 0.291329017581069,
+        "padj": 0.17513896591670103
+      },
+      {
+        "gene": "ELL2",
+        "delta": 0.28980622385984645,
+        "padj": 0.1837455729335462
+      },
+      {
+        "gene": "KCTD8",
+        "delta": 0.27569428792108663,
+        "padj": 0.4045509185240704
+      },
+      {
+        "gene": "CNTNAP3B",
+        "delta": 0.2199973465019195,
+        "padj": 0.30201481235247185
+      },
+      {
+        "gene": "CCNH",
+        "delta": 0.20708398647840187,
+        "padj": 0.27162189762353034
+      },
+      {
+        "gene": "BACE2",
+        "delta": 0.20219062238162944,
+        "padj": 0.3979573129702292
+      },
+      {
+        "gene": "FKBP5",
+        "delta": 0.20123279631872137,
+        "padj": 0.06736405185886161
+      }
+    ],
+    "top_aca": [
+      {
+        "gene": "RBMS3",
+        "delta": -2.333225239684932,
+        "padj": 8.151505183893228e-05
+      },
+      {
+        "gene": "GPCPD1",
+        "delta": -2.2113349417370087,
+        "padj": 0.00042288611867830945
+      },
+      {
+        "gene": "NPIPB4",
+        "delta": -1.9985666277926435,
+        "padj": 0.008415292076241459
+      },
+      {
+        "gene": "A2M",
+        "delta": -1.919077329375917,
+        "padj": 0.0011894957212749185
+      },
+      {
+        "gene": "LRRC8C",
+        "delta": -1.8943898896140305,
+        "padj": 6.242044220482183e-05
+      },
+      {
+        "gene": "ABCG2",
+        "delta": -1.8903820844767287,
+        "padj": 0.0018165990075648733
+      },
+      {
+        "gene": "IFNAR2",
+        "delta": -1.8064982759994173,
+        "padj": 2.2988476624922338e-05
+      },
+      {
+        "gene": "ABLIM1",
+        "delta": -1.7780588029497864,
+        "padj": 0.001991375490820682
+      },
+      {
+        "gene": "LINC00472",
+        "delta": -1.7654645772336492,
+        "padj": 0.00027045368426688776
+      },
+      {
+        "gene": "SLCO1A2",
+        "delta": -1.7397032736053109,
+        "padj": 0.0002808569553804632
+      }
+    ]
+  },
+  "meta": {
+    "n_sensitivity_donor_aucs": 8,
+    "n_supportive_ge_0.7": 7,
+    "min_donor_oof": 0.6666666666666667,
+    "median_donor_oof": 0.7934659090909091,
+    "verdict": "ROBUST_SUPPORTIVE_separability__DE_contaminated",
+    "note": "Donor OOF robust across source dropouts; pseudobulk DE dominated by neuronal ambient (ACA unsorted vs MCA enriched)."
+  }
+}

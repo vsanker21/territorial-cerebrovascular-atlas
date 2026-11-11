@@ -1,0 +1,8 @@
+feature,spearman_rho_vs_lesion_share,p,n
+mod_BBB_tight_junction,-0.5,0.6666666666666667,3
+mod_angiogenesis,-0.5,0.6666666666666667,3
+mod_ECM_basement,0.5,0.6666666666666667,3
+mod_hypoxia_stress,0.5,0.6666666666666667,3
+mod_inflammation,-0.5,0.6666666666666667,3
+mra_vessel_probability,0.5,0.6666666666666667,3
+mra_vessel_radius,0.5,0.6666666666666667,3

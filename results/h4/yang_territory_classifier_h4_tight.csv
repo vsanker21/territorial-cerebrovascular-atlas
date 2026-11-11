@@ -1,0 +1,2 @@
+control_cv_auroc,control_cv_accuracy,ad_transfer_auroc,ad_transfer_accuracy,delta_auroc_ad_minus_control,control_mean_correct_score,ad_mean_correct_score,n_control,n_ad,n_features,lineage,classes,interpretation
+0.8777272500000001,0.8028125,0.6952451535937965,0.6574473707390117,-0.1824820964062036,0.7540921242004,0.624358429901387,16000,11353,1500,endo,ACA_MCA_borderzone_SFG vs PCA_hippocampus,H4 predicts AD transfer AUROC < control CV AUROC (territorial identity degradation). First-pass exploratory.

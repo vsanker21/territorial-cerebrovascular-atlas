@@ -1,0 +1,72 @@
+{
+  "Midtemporal_cortex": {
+    "tv_dominant": "MCA",
+    "tv_p_ACA": 0.0,
+    "tv_p_MCA": 1.0,
+    "tv_p_PCA": 0.0,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 1.0,
+    "tv_assignment_fraction": 0.5096273845605277,
+    "tv_source": "TerritoryVoxels_HO"
+  },
+  "Angular_gyrus": {
+    "tv_dominant": "MCA",
+    "tv_p_ACA": 0.0,
+    "tv_p_MCA": 1.0,
+    "tv_p_PCA": 0.0,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 1.0,
+    "tv_assignment_fraction": 0.5989151570975335,
+    "tv_source": "TerritoryVoxels_HO"
+  },
+  "Prefrontal_cortex": {
+    "tv_dominant": "MCA",
+    "tv_p_ACA": 0.0,
+    "tv_p_MCA": 1.0,
+    "tv_p_PCA": 0.0,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 1.0,
+    "tv_assignment_fraction": 0.4400975845622981,
+    "tv_source": "TerritoryVoxels_HO"
+  },
+  "Hippocampus": {
+    "tv_dominant": "PCA",
+    "tv_p_ACA": 0.0,
+    "tv_p_MCA": 0.25,
+    "tv_p_PCA": 0.75,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 0.75,
+    "tv_assignment_fraction": 0.31,
+    "tv_source": "prior_Yang_hippocampus_TerritoryVoxels"
+  },
+  "Entorhinal_cortex": {
+    "tv_dominant": "PCA",
+    "tv_p_ACA": 0.0,
+    "tv_p_MCA": 0.4681107099879663,
+    "tv_p_PCA": 0.5318892900120337,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 0.5318892900120337,
+    "tv_assignment_fraction": 0.2654273668072058,
+    "tv_source": "TerritoryVoxels_HO"
+  },
+  "Mammillary_body": {
+    "tv_dominant": "unknown",
+    "tv_p_ACA": NaN,
+    "tv_p_MCA": NaN,
+    "tv_p_PCA": NaN,
+    "tv_p_VB": NaN,
+    "tv_p_dominant": NaN,
+    "tv_assignment_fraction": NaN,
+    "tv_source": "unmapped"
+  },
+  "Anterior_thalamus": {
+    "tv_dominant": "unknown",
+    "tv_p_ACA": NaN,
+    "tv_p_MCA": NaN,
+    "tv_p_PCA": NaN,
+    "tv_p_VB": NaN,
+    "tv_p_dominant": NaN,
+    "tv_assignment_fraction": NaN,
+    "tv_source": "unmapped"
+  }
+}

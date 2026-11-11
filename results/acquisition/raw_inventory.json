@@ -1,0 +1,289 @@
+{
+  "generated": "2026-07-23T21:24:58",
+  "n_files": 209,
+  "total_gb": 148.642,
+  "by_bucket": {
+    "walchli": {
+      "files": 31,
+      "gb": 132.714
+    },
+    "crouch": {
+      "files": 11,
+      "gb": 3.804
+    },
+    "arterial_atlas": {
+      "files": 38,
+      "gb": 2.855
+    },
+    "garcia": {
+      "files": 20,
+      "gb": 2.661
+    },
+    "genetics": {
+      "files": 30,
+      "gb": 2.313
+    },
+    "yang": {
+      "files": 35,
+      "gb": 2.041
+    },
+    "winkler": {
+      "files": 28,
+      "gb": 1.502
+    },
+    "_quarantine": {
+      "files": 6,
+      "gb": 0.513
+    },
+    "mra_atlas": {
+      "files": 7,
+      "gb": 0.237
+    },
+    "isles": {
+      "files": 3,
+      "gb": 0.0
+    }
+  },
+  "largest": [
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Overall_merge_of_all_brain_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 32285926578,
+      "mb": 32285.93
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Overall_merge_of_all_sorted_brain_and_peripehry_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 16697965890,
+      "mb": 16697.97
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Overall_merge_of_all_pathological_brain_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 13948694431,
+      "mb": 13948.69
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Overall_merge_of_all_brain_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 13076298607,
+      "mb": 13076.3
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Fetal_periphery_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 12499319880,
+      "mb": 12499.32
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Overall_merge_of_pathological_brain_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 8298685357,
+      "mb": 8298.69
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Overall_merge_of_tumor_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 7190869058,
+      "mb": 7190.87
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_RAW.tar",
+      "bytes": 4614799360,
+      "mb": 4614.8
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Adult_control_brain_temporal_lobe_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 3567091603,
+      "mb": 3567.09
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Adult_control_brain_temporal_lobe_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 3493366138,
+      "mb": 3493.37
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Glioblastoma_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 2954088837,
+      "mb": 2954.09
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Fetal_periphery_sorted_endothelial_cells_seurat_object_seurat_object.rds.gz",
+      "bytes": 2809571335,
+      "mb": 2809.57
+    },
+    {
+      "bucket": "crouch",
+      "rel": "data/raw/crouch/ucsc_vascular_dev/matrix.mtx.gz",
+      "bytes": 2136732567,
+      "mb": 2136.73
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Meningioma_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 1869805987,
+      "mb": 1869.81
+    },
+    {
+      "bucket": "crouch",
+      "rel": "data/raw/crouch/ucsc_vascular_dev/exprMatrix.tsv.gz",
+      "bytes": 1645559238,
+      "mb": 1645.56
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Fetal_CNS_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 1559677501,
+      "mb": 1559.68
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Metastasis_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 1409483839,
+      "mb": 1409.48
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Arteriovenous_malformations_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 1116564279,
+      "mb": 1116.56
+    },
+    {
+      "bucket": "yang",
+      "rel": "data/raw/yang/GSE163577_RAW.tar",
+      "bytes": 1019893760,
+      "mb": 1019.89
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Lower_grade_glioma_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 997617135,
+      "mb": 997.62
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Meningioma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 975636579,
+      "mb": 975.64
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Glioblastoma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 943886602,
+      "mb": 943.89
+    },
+    {
+      "bucket": "winkler",
+      "rel": "data/raw/winkler/ucsc/am-perivascular/matrix.mtx.gz",
+      "bytes": 846655902,
+      "mb": 846.66
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Metastasis_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 805841501,
+      "mb": 805.84
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Lower_grade_glioma_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 683871628,
+      "mb": 683.87
+    },
+    {
+      "bucket": "garcia",
+      "rel": "data/raw/garcia/mit/brain.BBB.humanHD.counts.GEOsubmission.rds",
+      "bytes": 665359939,
+      "mb": 665.36
+    },
+    {
+      "bucket": "garcia",
+      "rel": "data/raw/garcia/GSE173731_brain.BBB.humanHD.counts.rds.gz",
+      "bytes": 659827278,
+      "mb": 659.83
+    },
+    {
+      "bucket": "garcia",
+      "rel": "data/raw/garcia/mit/brain.BBB.human.counts.GEOsubmission.rds",
+      "bytes": 640770617,
+      "mb": 640.77
+    },
+    {
+      "bucket": "garcia",
+      "rel": "data/raw/garcia/GSE173731_brain.BBB.human.counts.rds.gz",
+      "bytes": 634982882,
+      "mb": 634.98
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Fetal_CNS_sorted_endothelial_cells_seurat_object.rds.gz",
+      "bytes": 538969231,
+      "mb": 538.97
+    },
+    {
+      "bucket": "_quarantine",
+      "rel": "data/raw/_quarantine/GSE300932_not_crouch_cell2022/GSE300932_RAW.tar",
+      "bytes": 511262720,
+      "mb": 511.26
+    },
+    {
+      "bucket": "winkler",
+      "rel": "data/raw/winkler/ucsc/am-immune/matrix.mtx.gz",
+      "bytes": 404387568,
+      "mb": 404.39
+    },
+    {
+      "bucket": "walchli",
+      "rel": "data/raw/walchli/geo_GSE256493/suppl/GSE256493_Arteriovenous_malformations_unsorted_endothelial_and_perivascular_cells_seurat_object.rds.gz",
+      "bytes": 375957440,
+      "mb": 375.96
+    },
+    {
+      "bucket": "genetics",
+      "rel": "data/raw/genetics/GCST006906/MEGASTROKE.1.AS.EUR.out",
+      "bytes": 356825737,
+      "mb": 356.83
+    },
+    {
+      "bucket": "genetics",
+      "rel": "data/raw/genetics/GCST005840/MEGASTROKE.3.LAS.TRANS.out",
+      "bytes": 350277269,
+      "mb": 350.28
+    },
+    {
+      "bucket": "genetics",
+      "rel": "data/raw/genetics/GCST005838/MEGASTROKE.1.AS.TRANS.out",
+      "bytes": 331261100,
+      "mb": 331.26
+    },
+    {
+      "bucket": "genetics",
+      "rel": "data/raw/genetics/GCST006906/harmonised/29531354-GCST006906-EFO_0000712.h.tsv.gz",
+      "bytes": 327743563,
+      "mb": 327.74
+    },
+    {
+      "bucket": "genetics",
+      "rel": "data/raw/genetics/GCST005840/harmonised/29531354-GCST005840-EFO_0005524.h.tsv.gz",
+      "bytes": 291277936,
+      "mb": 291.28
+    },
+    {
+      "bucket": "genetics",
+      "rel": "data/raw/genetics/GCST005838/harmonised/29531354-GCST005838-EFO_0000712.h.tsv.gz",
+      "bytes": 278743243,
+      "mb": 278.74
+    },
+    {
+      "bucket": "arterial_atlas",
+      "rel": "data/raw/arterial_atlas/nitrc/extracted/ArterialAtlas/ArterialAtlas/Atlas_182/ProbArterialAtlas_average.nii",
+      "bytes": 231073376,
+      "mb": 231.07
+    }
+  ]
+}

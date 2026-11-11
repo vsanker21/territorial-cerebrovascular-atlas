@@ -1,0 +1,16 @@
+"av_bin","n","cohort","frac"
+"capillary",36268,"adult_temporal_sorted",0.476426929392447
+"arterial",23758,"adult_temporal_sorted",0.312091954022989
+"venous",7978,"adult_temporal_sorted",0.1048013136289
+"angiogenic_capillary",4863,"adult_temporal_sorted",0.0638817733990148
+"activated_other",3258,"adult_temporal_sorted",0.0427980295566502
+"venous",7597,"avm_sorted",0.374144299433637
+"capillary",5436,"avm_sorted",0.267717311007141
+"arterial",4065,"avm_sorted",0.200196995813839
+"angiogenic_capillary",2275,"avm_sorted",0.112041369120906
+"activated_other",932,"avm_sorted",0.0459000246244767
+"capillary",6944,"lgg_sorted",0.399700684970932
+"angiogenic_capillary",4720,"lgg_sorted",0.271685949461809
+"arterial",3011,"lgg_sorted",0.173314913946929
+"venous",1958,"lgg_sorted",0.11270362056064
+"activated_other",740,"lgg_sorted",0.0425948310596903

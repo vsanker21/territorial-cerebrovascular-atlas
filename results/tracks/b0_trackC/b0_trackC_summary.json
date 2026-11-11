@@ -1,0 +1,178 @@
+{
+  "data_source": {
+    "path": "F:\\Cerebrovascular SCS\\data\\processed\\garcia\\garcia_rosmap_vascular.h5ad",
+    "note": "Local Garcia ROSMAP multiregion vascular object used for B0/Track C. Sun 2023 MIT counts_full.rds download was incomplete/unreadable (exact 32MiB); full Sun release requires Dropbox/Synapse (syn51015750). Regions overlap Sun design; cell n is smaller than published 22,514.",
+    "n_cells": 11689,
+    "n_donors": 214,
+    "celltype_counts": {
+      "Endo": 4345,
+      "Fib": 3364,
+      "Per": 3358,
+      "SMC": 622
+    },
+    "region_counts": {
+      "Prefrontal_cortex": 6763,
+      "Hippocampus": 1414,
+      "Anterior_thalamus": 1188,
+      "Entorhinal_cortex": 780,
+      "Angular_gyrus": 738,
+      "Midtemporal_cortex": 525,
+      "Mammillary_body": 281
+    }
+  },
+  "B0i_mural_counts": {
+    "medians_by_region": {
+      "Angular_gyrus": 9.0,
+      "Anterior_thalamus": 12.0,
+      "Entorhinal_cortex": 8.0,
+      "Hippocampus": 8.0,
+      "Mammillary_body": 1.5,
+      "Midtemporal_cortex": 8.0,
+      "Prefrontal_cortex": 8.0
+    },
+    "matched_pair_stats": {
+      "Midtemporal_cortex": {
+        "n_donors_with_region": 25,
+        "n_donors_with_mural": 25,
+        "median_mural": 8.0,
+        "mean_mural": 9.0,
+        "pct_donors_ge_5": 0.8,
+        "pct_donors_ge_10": 0.4
+      },
+      "Entorhinal_cortex": {
+        "n_donors_with_region": 24,
+        "n_donors_with_mural": 24,
+        "median_mural": 8.0,
+        "mean_mural": 8.166666666666666,
+        "pct_donors_ge_5": 0.7083333333333334,
+        "pct_donors_ge_10": 0.3333333333333333
+      },
+      "Prefrontal_cortex": {
+        "n_donors_with_region": 213,
+        "n_donors_with_mural": 200,
+        "median_mural": 8.0,
+        "mean_mural": 12.23943661971831,
+        "pct_donors_ge_5": 0.6854460093896714,
+        "pct_donors_ge_10": 0.4272300469483568
+      },
+      "Hippocampus": {
+        "n_donors_with_region": 41,
+        "n_donors_with_mural": 38,
+        "median_mural": 8.0,
+        "mean_mural": 7.804878048780488,
+        "pct_donors_ge_5": 0.6585365853658537,
+        "pct_donors_ge_10": 0.2926829268292683
+      },
+      "Anterior_thalamus": {
+        "n_donors_with_region": 25,
+        "n_donors_with_mural": 24,
+        "median_mural": 12.0,
+        "mean_mural": 13.16,
+        "pct_donors_ge_5": 0.8,
+        "pct_donors_ge_10": 0.64
+      }
+    },
+    "verdict": "PASS_MURAL_COUNTS_ADEQUATE_AMONG_REGION_PRESENT_DONORS"
+  },
+  "B0ii_HOX": {
+    "hox_genes_present": [
+      "HOXA1",
+      "HOXA2",
+      "HOXA3",
+      "HOXA4",
+      "HOXA5",
+      "HOXA7",
+      "HOXA9",
+      "HOXA10",
+      "HOXB1",
+      "HOXB2",
+      "HOXB3",
+      "HOXB4",
+      "HOXB5",
+      "HOXB6",
+      "HOXB7",
+      "HOXB8",
+      "HOXB9",
+      "HOXC4",
+      "HOXC5",
+      "HOXC6",
+      "HOXC8",
+      "HOXC9",
+      "HOXC10",
+      "HOXD1",
+      "HOXD3",
+      "HOXD4",
+      "HOXD8",
+      "HOXD9",
+      "HOXD10"
+    ],
+    "n_hox_genes_present": 29,
+    "mural_cell_detection_rate_any_HOX": 0.0,
+    "mural_mean_HOX_module": 0.0,
+    "cell_level_MW_anterior_vs_posterior": {
+      "n_a": 3086,
+      "n_b": 894,
+      "mean_a": 0.0,
+      "mean_b": 0.0,
+      "stat": 1379442.0,
+      "p": 1.0
+    },
+    "donor_level_wilcoxon": {
+      "n_paired_donors": 39,
+      "mean_anterior": 0.0,
+      "mean_posterior": 0.0,
+      "wilcoxon_stat": 0.0,
+      "p": NaN,
+      "direction_expected": "posterior_HOX_gt_anterior",
+      "direction_observed": "anterior_ge_posterior"
+    },
+    "matched_pair_midtemporal_vs_entorhinal": {
+      "pair": "Midtemporal_cortex(MCA) vs Entorhinal_cortex(PCA)",
+      "n_paired_donors": 24,
+      "mean_midtemporal": 0.0,
+      "mean_entorhinal": 0.0,
+      "wilcoxon_p": NaN,
+      "direction_observed": "midtemporal_ge_entorhinal"
+    },
+    "verdict": "HOX_RNA_UNDETECTABLE_IN_ADULT_MURAL__LINEAGE_NEEDS_CHROMATIN__B0ii_RNA_NOGO",
+    "scientific_note": "Concept note: lineage may persist as chromatin state, not adult RNA label. Near-zero HOX RNA is compatible with that and blocks RNA-only B0ii."
+  },
+  "TrackC_flow": {
+    "flow_genes_present": [
+      "KLF2",
+      "KLF4",
+      "NOS3",
+      "THBD",
+      "PLAT",
+      "CYBB",
+      "ICAM1",
+      "VCAM1",
+      "SELE",
+      "CCL2",
+      "ASS1",
+      "ARG2",
+      "MEF2C",
+      "FOXP1"
+    ],
+    "pole_contrast": {
+      "mean_anterior": 0.48309700540389444,
+      "mean_posterior": 0.4752120140656605,
+      "p": 0.8246719895734236,
+      "n_ant": 245,
+      "n_post": 99
+    },
+    "MCA_vs_PCA_region_contrast": {
+      "mean_MCA_regions": 0.4963113734019209,
+      "mean_PCA_regions": 0.467091489228464,
+      "p": 0.3800882186181823
+    },
+    "verdict": "FLOW_PROGRAM_NULL_BETWEEN_POLES__TRACK_C_INCONCLUSIVE_ON_THIS_OBJECT"
+  },
+  "TrackB_gate": {
+    "vessel_enriched_ACC": "CLOSED_Heiman_Matthews__PENDING_Walchli",
+    "sun_full_release": "BLOCKED_incomplete_MIT_RDS__need_Dropbox_or_Synapse",
+    "chromatin": "NOT_AVAILABLE",
+    "verdict": "TRACK_B_CLOSED__DO_NOT_SPEND"
+  },
+  "overall": "B0i_PASS_COUNTS__B0ii_HOX_RNA_NOGO__TRACK_B_NEEDS_CHROMATIN__TRACK_C_PRIMARY"
+}

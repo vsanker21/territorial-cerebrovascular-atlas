@@ -1,0 +1,273 @@
+{
+  "primary_z_lock": 1.5,
+  "z_grid": [
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0
+  ],
+  "n_subjects": 267,
+  "summary": [
+    {
+      "z_thr": 1.0,
+      "is_primary_lock": false,
+      "n_subjects": 267,
+      "n_zero_wmh": 0,
+      "frac_zero_wmh": 0.0,
+      "n_pass_primary": 267,
+      "n_pass_strict": 263,
+      "median_wmh_voxels_all": 1178.0,
+      "median_wmh_voxels_primary": 1178.0,
+      "spearman_all_rho": 0.2833583860595415,
+      "spearman_primary_rho": 0.2833583860595415,
+      "delta_M3_M0_primary": 0.021417064348930315,
+      "delta_M3_M0_strict": 0.021592244431977714,
+      "mean_share_MCA_primary": 0.24245291524266363,
+      "mean_share_ACA_primary": 0.03961318469262242
+    },
+    {
+      "z_thr": 1.25,
+      "is_primary_lock": false,
+      "n_subjects": 267,
+      "n_zero_wmh": 32,
+      "frac_zero_wmh": 0.1198501872659176,
+      "n_pass_primary": 233,
+      "n_pass_strict": 185,
+      "median_wmh_voxels_all": 196.0,
+      "median_wmh_voxels_primary": 250.0,
+      "spearman_all_rho": 0.4923159031090968,
+      "spearman_primary_rho": 0.4608518066646783,
+      "delta_M3_M0_primary": 0.16152029904885135,
+      "delta_M3_M0_strict": 0.16932517611876718,
+      "mean_share_MCA_primary": 0.2196562184673238,
+      "mean_share_ACA_primary": 0.04283851488218316
+    },
+    {
+      "z_thr": 1.5,
+      "is_primary_lock": true,
+      "n_subjects": 267,
+      "n_zero_wmh": 108,
+      "frac_zero_wmh": 0.4044943820224719,
+      "n_pass_primary": 155,
+      "n_pass_strict": 100,
+      "median_wmh_voxels_all": 19.0,
+      "median_wmh_voxels_primary": 87.0,
+      "spearman_all_rho": 0.5084986613578829,
+      "spearman_primary_rho": 0.5212237021772652,
+      "delta_M3_M0_primary": 0.4241540747742326,
+      "delta_M3_M0_strict": 0.44794817391462605,
+      "mean_share_MCA_primary": 0.2072771454090239,
+      "mean_share_ACA_primary": 0.07053751732368149
+    },
+    {
+      "z_thr": 1.75,
+      "is_primary_lock": false,
+      "n_subjects": 267,
+      "n_zero_wmh": 162,
+      "frac_zero_wmh": 0.6067415730337079,
+      "n_pass_primary": 98,
+      "n_pass_strict": 61,
+      "median_wmh_voxels_all": 0.0,
+      "median_wmh_voxels_primary": 57.0,
+      "spearman_all_rho": 0.378384064622243,
+      "spearman_primary_rho": 0.5985892320449387,
+      "delta_M3_M0_primary": 0.41507664337674743,
+      "delta_M3_M0_strict": 0.3862311312117418,
+      "mean_share_MCA_primary": 0.21732437951270608,
+      "mean_share_ACA_primary": 0.10211541299143488
+    },
+    {
+      "z_thr": 2.0,
+      "is_primary_lock": false,
+      "n_subjects": 267,
+      "n_zero_wmh": 173,
+      "frac_zero_wmh": 0.6479400749063671,
+      "n_pass_primary": 86,
+      "n_pass_strict": 52,
+      "median_wmh_voxels_all": 0.0,
+      "median_wmh_voxels_primary": 58.5,
+      "spearman_all_rho": 0.34052202776020213,
+      "spearman_primary_rho": 0.5795221317805843,
+      "delta_M3_M0_primary": 0.1820269657627489,
+      "delta_M3_M0_strict": 0.15341687329409637,
+      "mean_share_MCA_primary": 0.2213220369537706,
+      "mean_share_ACA_primary": 0.10142613861522722
+    }
+  ],
+  "nest_by_z": {
+    "1.0": {
+      "primary": {
+        "n": 267,
+        "spearman_rho": 0.2833583860595415,
+        "spearman_p": 2.536414986321496e-06,
+        "r2_M0": 0.022605513338452066,
+        "r2_M3": 0.04402257768738238,
+        "delta_M3_M0": 0.021417064348930315,
+        "mean_share": {
+          "ACA": 0.03961318469262242,
+          "MCA": 0.24245291524266363,
+          "PCA": 0.032019410274508234,
+          "VB": 0.042689351731643246
+        },
+        "n_ols": 267
+      },
+      "strict": {
+        "n": 263,
+        "spearman_rho": 0.28431728733999484,
+        "spearman_p": 2.7865969427582756e-06,
+        "r2_M0": 0.02174460268745837,
+        "r2_M3": 0.043336847119436084,
+        "delta_M3_M0": 0.021592244431977714,
+        "mean_share": {
+          "ACA": 0.03995226335311264,
+          "MCA": 0.2461211843337587,
+          "PCA": 0.03214793516908054,
+          "VB": 0.0433386194385884
+        },
+        "n_ols": 263
+      }
+    },
+    "1.25": {
+      "primary": {
+        "n": 233,
+        "spearman_rho": 0.4608518066646783,
+        "spearman_p": 1.1850790576844123e-13,
+        "r2_M0": 0.022221865025235266,
+        "r2_M3": 0.1837421640740866,
+        "delta_M3_M0": 0.16152029904885135,
+        "mean_share": {
+          "ACA": 0.04283851488218316,
+          "MCA": 0.2196562184673238,
+          "PCA": 0.02793360662493196,
+          "VB": 0.03490365944180208
+        },
+        "n_ols": 233
+      },
+      "strict": {
+        "n": 185,
+        "spearman_rho": 0.4662347792920013,
+        "spearman_p": 2.2574003238238117e-11,
+        "r2_M0": 0.014547718755984484,
+        "r2_M3": 0.18387289487475167,
+        "delta_M3_M0": 0.16932517611876718,
+        "mean_share": {
+          "ACA": 0.05166884516925397,
+          "MCA": 0.27519377207111745,
+          "PCA": 0.03466500008179449,
+          "VB": 0.04367309376707881
+        },
+        "n_ols": 185
+      }
+    },
+    "1.5": {
+      "primary": {
+        "n": 155,
+        "spearman_rho": 0.5212237021772652,
+        "spearman_p": 3.5691358009929046e-12,
+        "r2_M0": 0.03498818058561037,
+        "r2_M3": 0.459142255359843,
+        "delta_M3_M0": 0.4241540747742326,
+        "mean_share": {
+          "ACA": 0.07053751732368149,
+          "MCA": 0.2072771454090239,
+          "PCA": 0.03960963629736662,
+          "VB": 0.007781048269041438
+        },
+        "n_ols": 155
+      },
+      "strict": {
+        "n": 100,
+        "spearman_rho": 0.572749803417405,
+        "spearman_p": 4.770003139671979e-10,
+        "r2_M0": 0.029016544818118106,
+        "r2_M3": 0.47696471873274415,
+        "delta_M3_M0": 0.44794817391462605,
+        "mean_share": {
+          "ACA": 0.1073560836173387,
+          "MCA": 0.31823476850910853,
+          "PCA": 0.06087110334474869,
+          "VB": 0.011312593320951237
+        },
+        "n_ols": 100
+      }
+    },
+    "1.75": {
+      "primary": {
+        "n": 98,
+        "spearman_rho": 0.5985892320449387,
+        "spearman_p": 7.526239435393652e-11,
+        "r2_M0": 0.03614763218056716,
+        "r2_M3": 0.4512242755573146,
+        "delta_M3_M0": 0.41507664337674743,
+        "mean_share": {
+          "ACA": 0.10211541299143488,
+          "MCA": 0.21732437951270608,
+          "PCA": 0.024608592809701523,
+          "VB": 0.0
+        },
+        "n_ols": 98
+      },
+      "strict": {
+        "n": 61,
+        "spearman_rho": 0.62961290501033,
+        "spearman_p": 5.459901947744841e-08,
+        "r2_M0": 0.05079126604284889,
+        "r2_M3": 0.4370223972545907,
+        "delta_M3_M0": 0.3862311312117418,
+        "mean_share": {
+          "ACA": 0.16311999330658442,
+          "MCA": 0.34750876389221,
+          "PCA": 0.039535116317225394,
+          "VB": 0.0
+        },
+        "n_ols": 61
+      }
+    },
+    "2.0": {
+      "primary": {
+        "n": 86,
+        "spearman_rho": 0.5795221317805843,
+        "spearman_p": 5.0263105139918605e-09,
+        "r2_M0": 0.037759318303849376,
+        "r2_M3": 0.21978628406659828,
+        "delta_M3_M0": 0.1820269657627489,
+        "mean_share": {
+          "ACA": 0.10142613861522722,
+          "MCA": 0.2213220369537706,
+          "PCA": 0.029018651659288706,
+          "VB": 0.0
+        },
+        "n_ols": 86
+      },
+      "strict": {
+        "n": 52,
+        "spearman_rho": 0.5649915590761038,
+        "spearman_p": 1.2798430262476125e-05,
+        "r2_M0": 0.030911768161097197,
+        "r2_M3": 0.18432864145519356,
+        "delta_M3_M0": 0.15341687329409637,
+        "mean_share": {
+          "ACA": 0.1670564160614472,
+          "MCA": 0.3650771538134763,
+          "PCA": 0.04799238543651593,
+          "VB": 0.0
+        },
+        "n_ols": 52
+      }
+    }
+  },
+  "interpretation_locks": [
+    "Primary analysis remains z_thr=1.5 + QC primary PASS (locked before scaling).",
+    "Lower z increases sensitivity (fewer zero-WMH) but risks false-positive hyperintensities.",
+    "Higher z decreases sensitivity; more FAIL_ZERO_WMH / UCD discordance.",
+    "M3\u2212M0 remains a partition/concordance check of local TV WMH vs UCD TOTAL_WMH, not H3 molecular proof.",
+    "Does not unlock enrichment-matched Class B DE or ATLAS stroke Aim 4.",
+    "Class B claim unchanged: donor OOF separability yes; gene-level territorial markers not from unsorted ACC vs BVE MCA."
+  ],
+  "crosscheck_z15_vs_locked_qc": {
+    "robustness_n_pass_primary": 155,
+    "robustness_n_pass_strict": 100,
+    "robustness_n_zero": 108
+  }
+}

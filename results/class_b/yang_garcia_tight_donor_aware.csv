@@ -1,0 +1,44 @@
+fold_type,held_out,auroc,n_test,mean_garcia_score,batch,true_label,note
+cell_cv,fold0,0.700703125,264,,,,
+cell_cv,fold1,0.7318749999999999,264,,,,
+cell_cv,fold2,0.689453125,264,,,,
+cell_cv,fold3,0.6667187499999999,264,,,,
+cell_cv,fold4,0.619920634920635,263,,,,
+leave_one_donor,GSM4982100,,429,0.6128796487138454,Yang,0.0,single-class donor (OOF score only)
+leave_one_donor,GSM4982106,,221,0.5892733161237294,Yang,0.0,single-class donor (OOF score only)
+leave_one_donor,GSM4982101,,218,0.5909252385311431,Yang,0.0,single-class donor (OOF score only)
+leave_one_donor,GSM4982102,,132,0.6299181313681661,Yang,0.0,single-class donor (OOF score only)
+leave_one_donor,D20-169016,,74,0.27319972559054706,Garcia_exvivo,1.0,single-class donor (OOF score only)
+leave_one_donor,D20-125067,,51,0.470375148865035,Garcia_exvivo,1.0,single-class donor (OOF score only)
+leave_one_donor,D20-125071,,19,0.503379935646788,Garcia_exvivo,1.0,single-class donor (OOF score only)
+leave_one_donor,D20-125065,,12,0.37491065698700127,Garcia_exvivo,1.0,single-class donor (OOF score only)
+leave_one_donor,D20-125070,,11,0.4630117734234046,Garcia_exvivo,1.0,single-class donor (OOF score only)
+leave_one_donor,MidtemporalCortex_17,,11,0.525125494845712,Garcia_ROSMAP,1.0,single-class donor (OOF score only)
+leave_one_donor,D20-125073,,10,0.5436003560439331,Garcia_exvivo,1.0,single-class donor (OOF score only)
+leave_one_donor,D20-125063,,10,0.40013260814780105,Garcia_exvivo,1.0,single-class donor (OOF score only)
+leave_one_donor,AngularGyrus_32,,9,0.5075820470019891,Garcia_ROSMAP,1.0,single-class donor (OOF score only)
+leave_one_donor,D20-125069,,9,0.39443822344092994,Garcia_exvivo,1.0,single-class donor (OOF score only)
+leave_one_donor,AngularGyrus_24,,9,0.5328582491066813,Garcia_ROSMAP,1.0,single-class donor (OOF score only)
+leave_one_donor,AngularGyrus_33,,8,0.6534696325827495,Garcia_ROSMAP,1.0,single-class donor (OOF score only)
+leave_one_donor,AngularGyrus_30,,8,0.4509923901321625,Garcia_ROSMAP,1.0,single-class donor (OOF score only)
+leave_one_donor,AngularGyrus_48,,7,0.5067854030931006,Garcia_ROSMAP,1.0,single-class donor (OOF score only)
+leave_one_donor,MidtemporalCortex_38,,5,0.3164710391826866,Garcia_ROSMAP,1.0,single-class donor (OOF score only)
+donor_oof_score,GSM4982100,,429,0.6128796487138454,Yang,0.0,
+donor_oof_score,GSM4982106,,221,0.5892733161237294,Yang,0.0,
+donor_oof_score,GSM4982101,,218,0.5909252385311431,Yang,0.0,
+donor_oof_score,GSM4982102,,132,0.6299181313681661,Yang,0.0,
+donor_oof_score,D20-169016,,74,0.27319972559054706,Garcia_exvivo,1.0,
+donor_oof_score,D20-125067,,51,0.470375148865035,Garcia_exvivo,1.0,
+donor_oof_score,D20-125071,,19,0.503379935646788,Garcia_exvivo,1.0,
+donor_oof_score,D20-125065,,12,0.37491065698700127,Garcia_exvivo,1.0,
+donor_oof_score,D20-125070,,11,0.4630117734234046,Garcia_exvivo,1.0,
+donor_oof_score,MidtemporalCortex_17,,11,0.525125494845712,Garcia_ROSMAP,1.0,
+donor_oof_score,D20-125073,,10,0.5436003560439331,Garcia_exvivo,1.0,
+donor_oof_score,D20-125063,,10,0.40013260814780105,Garcia_exvivo,1.0,
+donor_oof_score,AngularGyrus_32,,9,0.5075820470019891,Garcia_ROSMAP,1.0,
+donor_oof_score,D20-125069,,9,0.39443822344092994,Garcia_exvivo,1.0,
+donor_oof_score,AngularGyrus_24,,9,0.5328582491066813,Garcia_ROSMAP,1.0,
+donor_oof_score,AngularGyrus_33,,8,0.6534696325827495,Garcia_ROSMAP,1.0,
+donor_oof_score,AngularGyrus_30,,8,0.4509923901321625,Garcia_ROSMAP,1.0,
+donor_oof_score,AngularGyrus_48,,7,0.5067854030931006,Garcia_ROSMAP,1.0,
+donor_oof_score,MidtemporalCortex_38,,5,0.3164710391826866,Garcia_ROSMAP,1.0,

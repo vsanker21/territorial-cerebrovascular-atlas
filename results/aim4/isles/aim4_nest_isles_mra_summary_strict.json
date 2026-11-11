@@ -1,0 +1,49 @@
+{
+  "analysis_set": "strict",
+  "n_analysis": 247,
+  "n_primary_qc": 247,
+  "n_strict_qc": 247,
+  "median_lesion_voxels": 1472.0,
+  "dominant_territory_counts": {
+    "MCA": 137,
+    "VB": 66,
+    "PCA": 33,
+    "ACA": 11
+  },
+  "ols_r2_n_lesion_voxels": {
+    "M0_demographics": {
+      "r2": 0.0042174651545364705,
+      "n": 247
+    },
+    "M1_mra_geometry_null": {
+      "r2": 0.0,
+      "n": 247,
+      "note": "atlas constants identical across subjects"
+    },
+    "M2_geometry_plus_tv_burden": {
+      "r2": 0.9898293854261221,
+      "n": 247
+    },
+    "M3_demog_or_burden": {
+      "r2": 0.9899001500425929,
+      "n": 247
+    },
+    "delta_M3_minus_M0": 0.9856826848880564
+  },
+  "wilcoxon_MCA_vs_ACA_burden": {
+    "stat": 2300.0,
+    "p": 2.7309231770535475e-22
+  },
+  "mean_lesion_share": {
+    "ACA": 0.0649674223100003,
+    "MCA": 0.48551423827882617,
+    "PCA": 0.12589956032806554,
+    "VB": 0.2377907260717364
+  },
+  "interpretation_locks": [
+    "ISLES'22 independent stroke replication vs ATLAS.",
+    "M3 predicting total lesion from territorial burdens is partition \u2014 NOT molecular H3.",
+    "MRA geometry null uses atlas constants (R2~0 expected).",
+    "ArterialAtlas_level2 bilateral map only."
+  ]
+}

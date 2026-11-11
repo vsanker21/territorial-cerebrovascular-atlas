@@ -1,0 +1,8 @@
+{
+  "n_requested": 3,
+  "n_ok": 3,
+  "method": "N4 FLAIR + affine MNI + WM-prior z-score hyperintensity (exploratory)",
+  "ida_spatial_masks": false,
+  "tv_atlas": "data\\raw\\arterial_atlas\\nitrc\\extracted\\Atlas_MNI152\\Atlas_182_MNI152\\TerritoryVoxels_BMM.nii",
+  "note": "Pilot only; not confirmatory Aim 4 until QC + fuller n + optional T1-based WM segmentation"
+}

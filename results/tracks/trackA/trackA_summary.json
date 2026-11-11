@@ -1,0 +1,130 @@
+{
+  "selection_structure": {
+    "ATLAS": "Chronic / rehabilitation-skewed sampling favors large MCA-territory lesions; agreement with acute cohorts is not fully independent confirmation of MCA biology.",
+    "ISLES22": "Acute DWI lesions; LVO/thrombectomy selection also MCA-skewed. Higher VB-dominant fraction than ATLAS is descriptive cohort mix.",
+    "ADNI_WMH": "Non-stroke SVD/WMH axis; TerritoryVoxels geography; not stroke selection. Mean MCA>ACA share claim; not majority-subject claim."
+  },
+  "cohorts": {
+    "ATLAS": {
+      "cohort": "ATLAS",
+      "n_subject_territory_rows": 5780,
+      "n_subjects": 1445,
+      "geometry_features": [
+        "log_territory_voxels",
+        "mean_vent_dist_mm",
+        "gm_mean",
+        "wm_mean",
+        "gm_wm_ratio",
+        "mra_vessel_probability",
+        "mra_vessel_radius"
+      ],
+      "outcome": "log1p(burden_vol_norm * 1e4)",
+      "partition": {
+        "R2_geometry": 0.23645359457738124,
+        "R2_territory": 0.23645359457738124,
+        "R2_joint": 0.23645359457738124,
+        "unique_geometry": 0.0,
+        "unique_territory": 0.0,
+        "shared": 0.23645359457738124
+      },
+      "n_model": {
+        "geometry": 5780,
+        "territory": 5780,
+        "joint": 5780
+      },
+      "wilcoxon_MCA_vs_ACA_burden": {
+        "stat": 1496288.0,
+        "p": 1.0905871490624952e-91,
+        "test": "mannwhitneyu_MCA_vs_ACA"
+      },
+      "interpretation": [
+        "Outcome is volume-normalized territorial burden (lesion/WMH voxels per territory voxel).",
+        "Geometry features are atlas-derived (constant within territory across subjects).",
+        "Unique territorial R\u00b2 = joint \u2212 geometry; unique geometry = joint \u2212 territory; shared = G+T\u2212joint.",
+        "Large shared component is expected if branching anatomy is developmentally specified.",
+        "NOT molecular H3; NOT TRCI/BCI."
+      ]
+    },
+    "ISLES22": {
+      "cohort": "ISLES22",
+      "n_subject_territory_rows": 988,
+      "n_subjects": 247,
+      "geometry_features": [
+        "log_territory_voxels",
+        "mean_vent_dist_mm",
+        "gm_mean",
+        "wm_mean",
+        "gm_wm_ratio",
+        "mra_vessel_probability",
+        "mra_vessel_radius"
+      ],
+      "outcome": "log1p(burden_vol_norm * 1e4)",
+      "partition": {
+        "R2_geometry": 0.062376546833225244,
+        "R2_territory": 0.062376546833225244,
+        "R2_joint": 0.062376546833225244,
+        "unique_geometry": 0.0,
+        "unique_territory": 0.0,
+        "shared": 0.062376546833225244
+      },
+      "n_model": {
+        "geometry": 988,
+        "territory": 988,
+        "joint": 988
+      },
+      "wilcoxon_MCA_vs_ACA_burden": {
+        "stat": 43505.0,
+        "p": 5.2977377629737584e-17,
+        "test": "mannwhitneyu_MCA_vs_ACA"
+      },
+      "interpretation": [
+        "Outcome is volume-normalized territorial burden (lesion/WMH voxels per territory voxel).",
+        "Geometry features are atlas-derived (constant within territory across subjects).",
+        "Unique territorial R\u00b2 = joint \u2212 geometry; unique geometry = joint \u2212 territory; shared = G+T\u2212joint.",
+        "Large shared component is expected if branching anatomy is developmentally specified.",
+        "NOT molecular H3; NOT TRCI/BCI."
+      ]
+    },
+    "ADNI_WMH": {
+      "cohort": "ADNI_WMH",
+      "n_subject_territory_rows": 620,
+      "n_subjects": 155,
+      "geometry_features": [
+        "log_territory_voxels",
+        "mean_vent_dist_mm",
+        "gm_mean",
+        "wm_mean",
+        "gm_wm_ratio",
+        "mra_vessel_probability",
+        "mra_vessel_radius"
+      ],
+      "outcome": "log1p(burden_vol_norm * 1e4)",
+      "partition": {
+        "R2_geometry": 0.12292285848812134,
+        "R2_territory": 0.12292285848812146,
+        "R2_joint": 0.12292285848812134,
+        "unique_geometry": -1.1102230246251565e-16,
+        "unique_territory": 0.0,
+        "shared": 0.12292285848812146
+      },
+      "n_model": {
+        "geometry": 620,
+        "territory": 620,
+        "joint": 620
+      },
+      "wilcoxon_MCA_vs_ACA_burden": {
+        "stat": 12895.0,
+        "p": 0.2280535448551504,
+        "test": "mannwhitneyu_MCA_vs_ACA"
+      },
+      "interpretation": [
+        "Outcome is volume-normalized territorial burden (lesion/WMH voxels per territory voxel).",
+        "Geometry features are atlas-derived (constant within territory across subjects).",
+        "Unique territorial R\u00b2 = joint \u2212 geometry; unique geometry = joint \u2212 territory; shared = G+T\u2212joint.",
+        "Large shared component is expected if branching anatomy is developmentally specified.",
+        "NOT molecular H3; NOT TRCI/BCI."
+      ]
+    }
+  },
+  "verdict": "SHARED_GEOMETRIC_TERRITORIAL_DOMINATES__TRACK_C_ALIGNED"
+}

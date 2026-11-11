@@ -1,0 +1,50 @@
+{
+  "sample_table": "41586_2022_4521_MOESM2_ESM.xlsx",
+  "exvivo_n": 17,
+  "exvivo_locations": {
+    "Left temporal tip": 2,
+    "Left temporal lobe": 2,
+    "Left lateral temporal lobe": 2,
+    "Right temporal tip": 1,
+    "Left anterior temporal lobe, left medial temporal lobe": 1,
+    "Right lateral temporal lobe,  medial temporal lobe": 1,
+    "Posterior temporal lobe": 1,
+    "Left anterior temporal lobe": 1,
+    "Left Anterior Temporal Tip": 1,
+    "Left Temporal Fissure": 1,
+    "Anterior Lateral Temporal Lobe": 1,
+    "Left Temporal Lobe": 1,
+    "Left Temporal Tip": 1,
+    "Repeat on left medial temporal lobe with hippocampus": 1
+  },
+  "rosmap_regions": [
+    {
+      "brain_region": "Prefrontal_cortex",
+      "n_libraries": 213
+    },
+    {
+      "brain_region": "Hippocampus",
+      "n_libraries": 6
+    }
+  ],
+  "hd_regions": [
+    {
+      "brain_region": "Caudate",
+      "n_samples": 11
+    },
+    {
+      "brain_region": "Putamen",
+      "n_samples": 9
+    }
+  ],
+  "class_b_mca_ready_rows": [
+    {
+      "source": "ex_vivo_BVE",
+      "label": "temporal tip/lobe (from Tissue location)",
+      "dominant_l2": "MCA",
+      "p_dominant_l2": 1.0,
+      "entropy_l2_bits": 0.0
+    }
+  ],
+  "verdict": "Garcia supports Class B MCA arm via (i) ex vivo temporal epilepsy cortex and (ii) ROSMAP mid-temporal / angular gyrus if present in region counts. Pair with Yang superior frontal (ACA) for territory-differing isocortex contrast. Winkler normal cortex remains pending lobe labels but is likely temporal-enriched by clinical context."
+}

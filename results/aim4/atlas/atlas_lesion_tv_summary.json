@@ -1,0 +1,40 @@
+{
+  "atlas_map": "ArterialAtlas_level2 (L/R collapsed to ACA/MCA/PCA/VB)",
+  "atlas_map_rationale": "TerritoryVoxels_BMM labels 1-4 are effectively unilateral in this release; ArterialAtlas_level2 provides bilateral major territories per ArterialAtlasLabels.txt.",
+  "n_masks_found": 1453,
+  "n_rows": 1453,
+  "n_ok": 1452,
+  "n_error": 1,
+  "n_primary_qc": 1445,
+  "n_strict_qc": 1444,
+  "n_fail_zero": 7,
+  "n_flag_low_tv_in_primary": 1,
+  "median_lesion_voxels_primary": 7449.0,
+  "median_frac_assigned_tv_primary": 0.9973753280839895,
+  "mean_lesion_share_primary": {
+    "ACA": 0.09585793267727814,
+    "MCA": 0.6951560812113908,
+    "PCA": 0.09166610860713116,
+    "VB": 0.09731892338873774
+  },
+  "mean_lesion_share_strict": {
+    "ACA": 0.09592431628716545,
+    "MCA": 0.6956374912399305,
+    "PCA": 0.09172958929176213,
+    "VB": 0.09738631876504572
+  },
+  "dominant_territory_counts_primary": {
+    "MCA": 1114,
+    "VB": 139,
+    "PCA": 113,
+    "ACA": 78,
+    "None": 1
+  },
+  "tv_resampled_to": "results\\aim4\\atlas\\ArterialAtlas_level2_major_on_ATLAS_MNI152NLin2009aSym.nii.gz",
+  "interpretation_locks": [
+    "ATLAS lesions are independent of Liu atlas construction set (prereg anti-circularity).",
+    "Stroke geography uses ArterialAtlas_level2 (bilateral), not TerritoryVoxels_BMM.",
+    "Descriptive stroke geography + MRA geometry null; molecular H3 still needs control-trained features.",
+    "Primary QC: drop zero-lesion; FLAG_LOW_TV retained in primary, dropped in strict."
+  ]
+}

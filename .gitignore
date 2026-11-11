@@ -1,0 +1,27 @@
+# secrets
+.env
+.env.*
+*.token
+**/credentials*
+**/secrets*
+OSF API Token.txt
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# data / large binaries
+data/
+*.h5ad
+*.h5
+*.npy
+*.npz.gz
+*.bam
+*.fastq*
+*.nii
+*.nii.gz
+
+# local only
+_github_export/

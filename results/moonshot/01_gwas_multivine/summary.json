@@ -1,0 +1,178 @@
+{
+  "honesty_lock": "Falsify if territory adds nothing beyond cell type + A\u2013V zonation",
+  "multivine_tissue": "dorsolateral prefrontal cortex ONLY \u2014 not ACC",
+  "n_vascular_nuclei": 39582,
+  "n_genesets": 8,
+  "top_enrichments": [
+    {
+      "cell_type": "Smooth_Muscle_Cell",
+      "geneset": "WMH_core",
+      "overlap_n": 4,
+      "overlap_genes": "COL4A1|COL4A2|NBEAL1|NOTCH3",
+      "hypergeom_p": 0.00022115043798156522,
+      "universe": 4000,
+      "neglog10p": 3.65531219618681,
+      "fdr": 0.0017692035038525218
+    },
+    {
+      "cell_type": "Smooth_Muscle_Cell",
+      "geneset": "cSVD_core",
+      "overlap_n": 3,
+      "overlap_genes": "COL4A1|COL4A2|NOTCH3",
+      "hypergeom_p": 0.0004934185748130781,
+      "universe": 4000,
+      "neglog10p": 3.30678450546043,
+      "fdr": 0.003947348598504625
+    },
+    {
+      "cell_type": "Smooth_Muscle_Cell",
+      "geneset": "cerebrovascular_combined",
+      "overlap_n": 6,
+      "overlap_genes": "COL4A1|COL4A2|NBEAL1|NOTCH3|PPP1R12B|ZFHX3",
+      "hypergeom_p": 0.11103456319156477,
+      "universe": 4000,
+      "neglog10p": 0.9545418116020188,
+      "fdr": 0.8882765055325181
+    },
+    {
+      "cell_type": "Pericyte",
+      "geneset": "cSVD_core",
+      "overlap_n": 1,
+      "overlap_genes": "NOTCH3",
+      "hypergeom_p": 0.16252127547608425,
+      "universe": 4000,
+      "neglog10p": 0.7890897779648018,
+      "fdr": 0.650085101904337
+    },
+    {
+      "cell_type": "Pericyte",
+      "geneset": "WMH_core",
+      "overlap_n": 1,
+      "overlap_genes": "NOTCH3",
+      "hypergeom_p": 0.28081205764600464,
+      "universe": 4000,
+      "neglog10p": 0.5515842481921691,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Smooth_Muscle_Cell",
+      "geneset": "stroke_core",
+      "overlap_n": 1,
+      "overlap_genes": "ZFHX3",
+      "hypergeom_p": 0.33359399503025283,
+      "universe": 4000,
+      "neglog10p": 0.4767817756263177,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Pericyte",
+      "geneset": "stroke_core",
+      "overlap_n": 1,
+      "overlap_genes": "ZFHX3",
+      "hypergeom_p": 0.33359399503025283,
+      "universe": 4000,
+      "neglog10p": 0.4767817756263177,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Arterial",
+      "geneset": "ischemic_stroke_HP",
+      "overlap_n": 2,
+      "overlap_genes": "FUT8|PTPRG",
+      "hypergeom_p": 0.38416393835780355,
+      "universe": 4000,
+      "neglog10p": 0.4154834049799507,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Pericyte",
+      "geneset": "ischemic_stroke_HP",
+      "overlap_n": 2,
+      "overlap_genes": "ADGRL3|ZFHX3",
+      "hypergeom_p": 0.38416393835780355,
+      "universe": 4000,
+      "neglog10p": 0.4154834049799507,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Capillary",
+      "geneset": "AD_core",
+      "overlap_n": 1,
+      "overlap_genes": "INPP5D",
+      "hypergeom_p": 0.3980483378812087,
+      "universe": 4000,
+      "neglog10p": 0.40006418521182446,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Meningeal_Fibroblast",
+      "geneset": "AD_core",
+      "overlap_n": 1,
+      "overlap_genes": "CLU",
+      "hypergeom_p": 0.3980483378812087,
+      "universe": 4000,
+      "neglog10p": 0.40006418521182446,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Arterial_vs_Venous",
+      "geneset": "AD_core",
+      "overlap_n": 1,
+      "overlap_genes": "ADAMTS1",
+      "hypergeom_p": 0.3980483378812087,
+      "universe": 4000,
+      "neglog10p": 0.40006418521182446,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Arterial",
+      "geneset": "WMH",
+      "overlap_n": 1,
+      "overlap_genes": "ANO2",
+      "hypergeom_p": 0.6196303912923854,
+      "universe": 4000,
+      "neglog10p": 0.2078672893523207,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Venous",
+      "geneset": "WMH",
+      "overlap_n": 1,
+      "overlap_genes": "ANO2",
+      "hypergeom_p": 0.6196303912923854,
+      "universe": 4000,
+      "neglog10p": 0.2078672893523207,
+      "fdr": 1.0
+    },
+    {
+      "cell_type": "Smooth_Muscle_Cell",
+      "geneset": "WMH",
+      "overlap_n": 1,
+      "overlap_genes": "PPP1R12B",
+      "hypergeom_p": 0.6196303912923854,
+      "universe": 4000,
+      "neglog10p": 0.2078672893523207,
+      "fdr": 1.0
+    }
+  ],
+  "falsifier": {
+    "class_b_gwas_score_donor_oof_auroc_ACA_vs_MCA": 0.9160373325733828,
+    "null_random_modules_mean_auroc": 0.9157826303790255,
+    "null_random_modules_sd_auroc": 0.009878438313378937,
+    "gwas_beats_null": false,
+    "garcia_MT_vs_EC_gwas_donor_oof_auroc": 0.48773694390715666
+  },
+  "verdict_notes": [
+    "FALSIFIED at Class B: GWAS modules do not beat random modules for ACA vs MCA \u2014 territory adds nothing beyond noise at this resolution."
+  ],
+  "best_celltype_enrichment": {
+    "cell_type": "Smooth_Muscle_Cell",
+    "geneset": "WMH_core",
+    "overlap_n": 4,
+    "overlap_genes": "COL4A1|COL4A2|NBEAL1|NOTCH3",
+    "hypergeom_p": 0.00022115043798156522,
+    "universe": 4000,
+    "neglog10p": 3.65531219618681,
+    "fdr": 0.0017692035038525218
+  }
+}

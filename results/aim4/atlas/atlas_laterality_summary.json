@@ -1,0 +1,22 @@
+{
+  "n": 1445,
+  "mean_share_L": 0.49021385428857156,
+  "mean_share_R": 0.4897851915959663,
+  "dominant_hemi_counts": {
+    "L": 728,
+    "R": 717
+  },
+  "dominant_major_counts": {
+    "MCA": 1114,
+    "VB": 139,
+    "PCA": 113,
+    "ACA": 79
+  },
+  "mean_share_MCA_L": 0.3461362301370965,
+  "mean_share_MCA_R": 0.3490198510742943,
+  "mean_share_ACA_L": 0.0418807521350795,
+  "mean_share_ACA_R": 0.05397718054219863,
+  "frac_dom_MCA_when_dom_L": 0.75,
+  "frac_dom_MCA_when_dom_R": 0.7921896792189679,
+  "interpretation": "If MCA remains the modal dominant major territory within L-dominant and R-dominant subjects, collapse L/R\u2192major is not an artifact of unilateral atlas error."
+}

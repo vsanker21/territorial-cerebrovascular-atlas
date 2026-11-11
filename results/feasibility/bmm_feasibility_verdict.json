@@ -1,0 +1,18 @@
+{
+  "method": "TerritoryVoxels_BMM labels 1-4 (empirically ACA/MCA/PCA/VB); not raw BMM ROI-mean",
+  "nitrc_ingest": "success",
+  "hippocampus_pca_dominant": true,
+  "superior_frontal_clean_aca": false,
+  "superior_frontal_is_aca_mca_borderzone": true,
+  "yang_within_donor_viable_as_pca_vs_borderzone": true,
+  "yang_within_donor_viable_as_pca_vs_aca": false,
+  "garcia_temporal_mca": true,
+  "mfg_mca": true,
+  "recommended_yang_contrast": "PCA (hippocampus) vs ACA/MCA borderzone (superior frontal)",
+  "recommended_class_b": "ACA (hard-atlas medial frontal / high-confidence ACA voxels) vs MCA (Garcia temporal pole or middle frontal gyrus)",
+  "warnings": [
+    "ProbArterialAtlas_BMM is not simplex-normalized; ROI-mean+renormalize is invalid",
+    "TerritoryVoxels label 4 is VB in this release, not multi-claim as in Sci Data README",
+    "BorderZone_ProbAve is mostly NaN"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-18",
+  "source_key": "All_Subjects_Key_MRI_24Jul2026.csv",
+  "n_series_rows": 92246,
+  "n_unique_subjects": 3195,
+  "series_type_counts": {
+    "T1W": 20706,
+    "DERIVED": 12104,
+    "FLAIR": 8492,
+    "ASL": 7225,
+    "CALIBRATION": 6963,
+    "T2STARW": 6926,
+    "DMRI": 5816,
+    "LOCALIZER": 5112,
+    "T2W_HIGHRESHIPPO": 4661,
+    "BOLD": 4318,
+    "PDT2": 3669,
+    "T2W": 3338,
+    "MET2STARW": 2498,
+    "UNKNOWN": 414,
+    "MRS": 3,
+    "UNDETERMINED": 1
+  },
+  "mra_tof_angio_text_hits": {},
+  "n_mra_tof_angio_rows": 0,
+  "wmh_nest_n_subjects": 155,
+  "wmh_nest_mra_covariates": "atlas-constant only (vessel_probability/radius by territory)",
+  "adni_protocol_tof_mra": false,
+  "verdict": "ADNI_SUBJECT_TOF_MRA__NO_GO_ON_DISK_AND_PROTOCOL",
+  "implication": "Track C subject-level architecture mediation cannot be completed on ADNI WMH. Keep ADNI for territory-normalized WMH geography only. Pursue stroke/aneurysm cohorts with subject TOF+lesions, or OpenNeuro TOF methods pilot.",
+  "next_sources": [
+    "OpenNeuro ds005096 TOF-MRA (methods/calibration; no stroke lesions)",
+    "Stroke center cohorts with TOF/CTA + MNI lesions (request/collaborate)",
+    "Do not re-interpret atlas MRA null as subject architecture"
+  ]
+}

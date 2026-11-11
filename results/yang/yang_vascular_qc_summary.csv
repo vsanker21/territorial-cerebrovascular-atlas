@@ -1,0 +1,17 @@
+analysis_stream,disease,n_cells,table,territory_contrast,vascular_lineage
+Aim3_borderzone,AD,16533,stream_disease,,
+Aim3_borderzone,control,39392,stream_disease,,
+H1_primary,AD,29668,stream_disease,,
+H1_primary,control,57555,stream_disease,,
+,AD,16533,contrast_disease,ACA_MCA_borderzone_SFG,
+,control,39392,contrast_disease,ACA_MCA_borderzone_SFG,
+,AD,29668,contrast_disease,PCA_hippocampus,
+,control,57555,contrast_disease,PCA_hippocampus,
+,,34435,lineage_contrast,ACA_MCA_borderzone_SFG,endo
+,,54365,lineage_contrast,PCA_hippocampus,endo
+,,2662,lineage_contrast,ACA_MCA_borderzone_SFG,fib
+,,4726,lineage_contrast,PCA_hippocampus,fib
+,,16492,lineage_contrast,ACA_MCA_borderzone_SFG,peri
+,,19861,lineage_contrast,PCA_hippocampus,peri
+,,2336,lineage_contrast,ACA_MCA_borderzone_SFG,smc
+,,8271,lineage_contrast,PCA_hippocampus,smc

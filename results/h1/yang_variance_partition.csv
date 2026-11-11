@@ -1,0 +1,6 @@
+model,mean_pc_r2
+donor,0.05672469024402294
+donor+territory_contrast,0.061332035087286754
+donor+region,0.061332035087286754
+delta_territory_after_donor,0.004607344843263812
+delta_region_after_donor,0.004607344843263812

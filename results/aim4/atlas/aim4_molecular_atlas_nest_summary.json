@@ -1,0 +1,79 @@
+{
+  "design": "ecological_allen_modules_x_ATLAS_lesion_share",
+  "verdict": "EXPLORATORY_ECOLOGICAL_n3__NOT_CONFIRMATORY_H3",
+  "allen_cells_by_territory": {
+    "ACA": 165,
+    "MCA": 425,
+    "PCA": 102
+  },
+  "allen_donors_by_territory": {
+    "ACA": 5,
+    "MCA": 6,
+    "PCA": 5
+  },
+  "vb_molecular_arm": null,
+  "nested_r2": {
+    "n_territories": 3,
+    "territories": [
+      "ACA",
+      "MCA",
+      "PCA"
+    ],
+    "r2_geometry_only": 1.0,
+    "r2_modules_only": 1.0,
+    "r2_geometry_plus_modules": 1.0,
+    "note": "n=3 ecological points; R2 is descriptive only, not confirmatory H3"
+  },
+  "spearman": [
+    {
+      "feature": "mod_BBB_tight_junction",
+      "spearman_rho_vs_lesion_share": -0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mod_angiogenesis",
+      "spearman_rho_vs_lesion_share": -0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mod_ECM_basement",
+      "spearman_rho_vs_lesion_share": 0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mod_hypoxia_stress",
+      "spearman_rho_vs_lesion_share": 0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mod_inflammation",
+      "spearman_rho_vs_lesion_share": -0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mra_vessel_probability",
+      "spearman_rho_vs_lesion_share": 0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    },
+    {
+      "feature": "mra_vessel_radius",
+      "spearman_rho_vs_lesion_share": 0.5,
+      "p": 0.6666666666666667,
+      "n": 3
+    }
+  ],
+  "classb_sensitivity": "2-point Class B module means (ACA pool vs Garcia MCA) saved; cannot estimate Spearman with n=2.",
+  "interpretation_locks": [
+    "Ecological nest only (n_territories=3: ACA/MCA/PCA); VB has no molecular arm.",
+    "Allen Endo is unsorted cortex \u2014 not enrichment-matched vessel-enriched ACC.",
+    "NOT confirmatory H3 / Territorial Vulnerability Index.",
+    "Do not use soft unmatched DE genes as molecular predictors.",
+    "ATLAS lesion geography and MRA geometry null remain the frozen imaging layer."
+  ]
+}

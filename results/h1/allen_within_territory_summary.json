@@ -1,0 +1,60 @@
+{
+  "object": "data\\processed\\allen\\allen_endo_multiregion.h5ad",
+  "n_endo_total": 909,
+  "by_tissue": {
+    "anterior cingulate cortex": 165,
+    "dorsolateral prefrontal cortex": 152,
+    "primary somatosensory cortex": 141,
+    "primary visual cortex": 102,
+    "angular gyrus": 97,
+    "primary auditory cortex": 94,
+    "middle temporal gyrus": 93,
+    "primary motor cortex": 65
+  },
+  "by_tv_arm": {
+    "MCA": 425,
+    "MCA_leaning": 217,
+    "ACA": 165,
+    "PCA": 102
+  },
+  "contrasts": [
+    {
+      "contrast": "ACC_ACA_vs_temporal_MCA",
+      "pos": "ACA",
+      "neg": "MCA_temporal_MTG_ANG",
+      "n_pos": 165,
+      "n_neg": 190,
+      "n_donors_pos": 5,
+      "n_donors_neg": 6,
+      "donor_oof_auroc": 0.7777777777777779,
+      "ambient_neuronal_pos": 3.3825535774230957,
+      "ambient_neuronal_neg": 3.398341417312622
+    },
+    {
+      "contrast": "ACC_ACA_vs_V1_PCA",
+      "pos": "ACA",
+      "neg": "PCA",
+      "n_pos": 165,
+      "n_neg": 102,
+      "n_donors_pos": 5,
+      "n_donors_neg": 5,
+      "donor_oof_auroc": NaN,
+      "ambient_neuronal_pos": 3.3825535774230957,
+      "ambient_neuronal_neg": 3.036574125289917
+    },
+    {
+      "contrast": "temporal_MCA_vs_V1_PCA",
+      "pos": "MCA",
+      "neg": "PCA",
+      "n_pos": 190,
+      "n_neg": 102,
+      "n_donors_pos": 6,
+      "n_donors_neg": 5,
+      "donor_oof_auroc": 0.6,
+      "ambient_neuronal_pos": 3.398341417312622,
+      "ambient_neuronal_neg": 3.036574125289917
+    }
+  ],
+  "scientific_note": "Within-dataset Allen Endo; unsorted cortex; TV arms are operational priors (ACC\u2192ACA, MTG/ANG\u2192MCA, V1\u2192PCA). Not vessel-enriched. Donor n is small \u2014 interpret OOF cautiously.",
+  "verdict": "WITHIN_ATLAS_SIGNAL"
+}

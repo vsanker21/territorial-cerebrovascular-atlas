@@ -1,0 +1,305 @@
+{
+  "object": "data\\processed\\aca_cohort_hunt\\linnarsson_ft_vascular.h5ad",
+  "n_vascular": 657,
+  "n_endo": 234,
+  "n_donors": 3,
+  "endo_by_arm": {
+    "temporal": 157,
+    "ACA": 43,
+    "lateral_frontal": 34
+  },
+  "endo_by_dissection": {
+    "MTG": 131,
+    "IFG": 28,
+    "STG": 26,
+    "A24": 17,
+    "A25": 11,
+    "A23": 9,
+    "A32": 6,
+    "MFG_A46": 6
+  },
+  "per_dissection": {
+    "A24": {
+      "n_vascular": 51,
+      "n_endo": 17,
+      "n_donors": 3,
+      "arm": "ACA",
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 1.0,
+      "tv_p_MCA": 0.0,
+      "tv_assignment_fraction": 0.7241412396852811,
+      "ho_missing": []
+    },
+    "A32": {
+      "n_vascular": 18,
+      "n_endo": 6,
+      "n_donors": 3,
+      "arm": "ACA",
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 0.9999598167644459,
+      "tv_p_MCA": 4.018323555412682e-05,
+      "tv_assignment_fraction": 0.5643595791001451,
+      "ho_missing": []
+    },
+    "A25": {
+      "n_vascular": 30,
+      "n_endo": 11,
+      "n_donors": 3,
+      "arm": "ACA",
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 1.0,
+      "tv_p_MCA": 0.0,
+      "tv_assignment_fraction": 0.5293645251396648,
+      "ho_missing": []
+    },
+    "A23": {
+      "n_vascular": 35,
+      "n_endo": 9,
+      "n_donors": 3,
+      "arm": "ACA",
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 0.8679953106682298,
+      "tv_p_MCA": 0.0,
+      "tv_assignment_fraction": 0.4436238818389848,
+      "ho_missing": []
+    },
+    "MFG_A46": {
+      "n_vascular": 27,
+      "n_endo": 6,
+      "n_donors": 3,
+      "arm": "lateral_frontal",
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_p_MCA": 1.0,
+      "tv_assignment_fraction": 0.4400975845622981,
+      "ho_missing": []
+    },
+    "IFG": {
+      "n_vascular": 56,
+      "n_endo": 28,
+      "n_donors": 3,
+      "arm": "lateral_frontal",
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_p_MCA": 1.0,
+      "tv_assignment_fraction": 0.463238419039524,
+      "ho_missing": []
+    },
+    "MTG": {
+      "n_vascular": 329,
+      "n_endo": 131,
+      "n_donors": 3,
+      "arm": "temporal",
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_p_MCA": 1.0,
+      "tv_assignment_fraction": 0.5096273845605277,
+      "ho_missing": []
+    },
+    "STG": {
+      "n_vascular": 111,
+      "n_endo": 26,
+      "n_donors": 3,
+      "arm": "temporal",
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_p_MCA": 1.0,
+      "tv_assignment_fraction": 0.492616226071103,
+      "ho_missing": []
+    }
+  },
+  "tv_priors": {
+    "A24": {
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 1.0,
+      "tv_p_MCA": 0.0,
+      "tv_p_PCA": 0.0,
+      "tv_p_VB": 0.0,
+      "tv_p_dominant": 1.0,
+      "tv_assignment_fraction": 0.7241412396852811,
+      "ho_missing": [],
+      "tv_source": "TerritoryVoxels_HO",
+      "ho_labels": [
+        "Cingulate Gyrus, anterior division"
+      ],
+      "arm": "ACA",
+      "role": "primary_ACA_cingulate"
+    },
+    "A32": {
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 0.9999598167644459,
+      "tv_p_MCA": 4.018323555412682e-05,
+      "tv_p_PCA": 0.0,
+      "tv_p_VB": 0.0,
+      "tv_p_dominant": 0.9999598167644459,
+      "tv_assignment_fraction": 0.5643595791001451,
+      "ho_missing": [],
+      "tv_source": "TerritoryVoxels_HO",
+      "ho_labels": [
+        "Paracingulate Gyrus",
+        "Cingulate Gyrus, anterior division"
+      ],
+      "arm": "ACA",
+      "role": "ACA_dorsal_MFC"
+    },
+    "A25": {
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 1.0,
+      "tv_p_MCA": 0.0,
+      "tv_p_PCA": 0.0,
+      "tv_p_VB": 0.0,
+      "tv_p_dominant": 1.0,
+      "tv_assignment_fraction": 0.5293645251396648,
+      "ho_missing": [],
+      "tv_source": "TerritoryVoxels_HO",
+      "ho_labels": [
+        "Frontal Medial Cortex",
+        "Cingulate Gyrus, anterior division"
+      ],
+      "arm": "ACA",
+      "role": "ACA_subcallosal_borderline"
+    },
+    "A23": {
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 0.8679953106682298,
+      "tv_p_MCA": 0.0,
+      "tv_p_PCA": 0.13200468933177023,
+      "tv_p_VB": 0.0,
+      "tv_p_dominant": 0.8679953106682298,
+      "tv_assignment_fraction": 0.4436238818389848,
+      "ho_missing": [],
+      "tv_source": "TerritoryVoxels_HO",
+      "ho_labels": [
+        "Cingulate Gyrus, posterior division"
+      ],
+      "arm": "ACA",
+      "role": "ACA_caudal_cingulate"
+    },
+    "MFG_A46": {
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_p_MCA": 1.0,
+      "tv_p_PCA": 0.0,
+      "tv_p_VB": 0.0,
+      "tv_p_dominant": 1.0,
+      "tv_assignment_fraction": 0.4400975845622981,
+      "ho_missing": [],
+      "tv_source": "TerritoryVoxels_HO",
+      "ho_labels": [
+        "Middle Frontal Gyrus"
+      ],
+      "arm": "lateral_frontal",
+      "role": "MCA_lateral_frontal_A46"
+    },
+    "IFG": {
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_p_MCA": 1.0,
+      "tv_p_PCA": 0.0,
+      "tv_p_VB": 0.0,
+      "tv_p_dominant": 1.0,
+      "tv_assignment_fraction": 0.463238419039524,
+      "ho_missing": [],
+      "tv_source": "TerritoryVoxels_HO",
+      "ho_labels": [
+        "Inferior Frontal Gyrus, pars opercularis",
+        "Inferior Frontal Gyrus, pars triangularis"
+      ],
+      "arm": "lateral_frontal",
+      "role": "MCA_lateral_frontal_IFG"
+    },
+    "MTG": {
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_p_MCA": 1.0,
+      "tv_p_PCA": 0.0,
+      "tv_p_VB": 0.0,
+      "tv_p_dominant": 1.0,
+      "tv_assignment_fraction": 0.5096273845605277,
+      "ho_missing": [],
+      "tv_source": "TerritoryVoxels_HO",
+      "ho_labels": [
+        "Middle Temporal Gyrus, anterior division",
+        "Middle Temporal Gyrus, posterior division",
+        "Middle Temporal Gyrus, temporooccipital part"
+      ],
+      "arm": "temporal",
+      "role": "MCA_temporal_MTG"
+    },
+    "STG": {
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_p_MCA": 1.0,
+      "tv_p_PCA": 0.0,
+      "tv_p_VB": 0.0,
+      "tv_p_dominant": 1.0,
+      "tv_assignment_fraction": 0.492616226071103,
+      "ho_missing": [],
+      "tv_source": "TerritoryVoxels_HO",
+      "ho_labels": [
+        "Superior Temporal Gyrus, anterior division",
+        "Superior Temporal Gyrus, posterior division"
+      ],
+      "arm": "temporal",
+      "role": "MCA_temporal_STG"
+    }
+  },
+  "contrasts": [
+    {
+      "contrast": "ACA_vs_lateral_frontal",
+      "pos": "ACA",
+      "neg": "lateral_frontal",
+      "n_pos": 43,
+      "n_neg": 34,
+      "n_donors_pos": 3,
+      "n_donors_neg": 3,
+      "donor_lodo_pooled_cell_auroc": 0.4958960328317374,
+      "donor_lodo_mean_fold_auroc": 0.5570398804094456,
+      "n_donor_folds": 3,
+      "ambient_neuronal_mean_pos": 0.5551588535308838,
+      "ambient_neuronal_mean_neg": 0.5890161395072937,
+      "n_ambient_genes": 4,
+      "scientific_note": "Same 3 Siletti donors contribute to all arms; metric = LODO pooled cell-level AUROC (not cross-cohort donor-mean OOF)."
+    },
+    {
+      "contrast": "ACA_vs_temporal",
+      "pos": "ACA",
+      "neg": "temporal",
+      "n_pos": 43,
+      "n_neg": 157,
+      "n_donors_pos": 3,
+      "n_donors_neg": 3,
+      "donor_lodo_pooled_cell_auroc": 0.423492815879129,
+      "donor_lodo_mean_fold_auroc": 0.45125573351379805,
+      "n_donor_folds": 3,
+      "ambient_neuronal_mean_pos": 0.5551588535308838,
+      "ambient_neuronal_mean_neg": 0.28017663955688477,
+      "n_ambient_genes": 4,
+      "scientific_note": "Same 3 Siletti donors contribute to all arms; metric = LODO pooled cell-level AUROC (not cross-cohort donor-mean OOF)."
+    },
+    {
+      "contrast": "lateral_frontal_vs_temporal_MCA_null",
+      "pos": "lateral_frontal",
+      "neg": "temporal",
+      "n_pos": 34,
+      "n_neg": 157,
+      "n_donors_pos": 3,
+      "n_donors_neg": 3,
+      "donor_lodo_pooled_cell_auroc": 0.3098538778568752,
+      "donor_lodo_mean_fold_auroc": 0.293184444963898,
+      "n_donor_folds": 3,
+      "ambient_neuronal_mean_pos": 0.5890161395072937,
+      "ambient_neuronal_mean_neg": 0.28017663955688477,
+      "n_ambient_genes": 4,
+      "scientific_note": "Same 3 Siletti donors contribute to all arms; metric = LODO pooled cell-level AUROC (not cross-cohort donor-mean OOF)."
+    }
+  ],
+  "lateral_frontal_temporal_on_disk": true,
+  "verdict": "UNDERPOWERED_n_donors_3__slices_acquired",
+  "locked_interpretation": [
+    "Lateral frontal + temporal are MCA-dominant on TerritoryVoxels; ACA arm is cingulate pool.",
+    "Frontal-vs-temporal is a same-territory (MCA) null within Siletti, not ACA vs MCA.",
+    "Siletti adult census uses ~3 donors \u2014 donor OOF folds are few; do not overclaim.",
+    "Not vessel-enriched; ambient neuronal means are reported per contrast."
+  ]
+}

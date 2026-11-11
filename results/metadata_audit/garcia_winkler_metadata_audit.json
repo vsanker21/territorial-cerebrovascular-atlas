@@ -1,0 +1,46 @@
+{
+  "garcia": {
+    "file": "F:\\Cerebrovascular SCS\\data\\raw\\garcia\\Garcia_SuppTable1.xlsx",
+    "present": true,
+    "sheets": [
+      "Ex Vivo Vascular Subclusters",
+      "Post Mortem Vascular Subcluster"
+    ],
+    "region_counts": [],
+    "class_b_assessment": {},
+    "detected_region_column": null,
+    "class_b_mca_regions": [
+      "mid-temporal cortex",
+      "angular gyrus"
+    ],
+    "verdict": "Garcia multi-region design can support Class B if mid-temporal and/or angular gyrus samples are present with usable cell counts. Prioritized MCA ROIs: ['mid-temporal cortex', 'angular gyrus']. Prefrontal cortex must be split or treated as mixed."
+  },
+  "winkler": {
+    "dataset": "Winkler EA et al. Science 2022;375:eabi7377",
+    "normal_tissue": {
+      "description": "Normal cerebral cortex from tailored lobectomies for epilepsy (n donors with scRNA \u2248 5 for normal arm contributing 74,535 cells before AVM joint atlas).",
+      "region_granularity": "Reported as cerebral cortex; epilepsy lobectomies are frequently temporal \u2014 exact lobe per donor requires table S1 / dbGaP phs002624.",
+      "territorial_implication": "If predominantly temporal neocortex \u2192 MCA-dominant prior. If frontal/parietal mix without labels \u2192 cannot support clean Class B.",
+      "class_b_status": "PENDING_TABLE_S1",
+      "access": "dbGaP phs002624.v2.p1 (controlled); UCSC cell browser adult-brain-vasc.cells.ucsc.edu; Zenodo cited in Science for objects"
+    },
+    "avm_tissue": {
+      "description": "Intraoperative angiographically confirmed AVMs (5 donors; 106,853 cells reported for AVM arm).",
+      "region_granularity": "Lesion-centric (nidus), not cytoarchitectonic region \u2014 territorial indexing may use AVM arterial feeder territory if recorded clinically.",
+      "class_b_status": "not_applicable_use_for_H4",
+      "role": "H4 disease de-differentiation / zonation loss; not naive territorial identity discovery."
+    },
+    "recommendation": "Do not assign Winkler normal cells to MCA until lobe-level metadata are verified. Garcia mid-temporal + angular gyrus are the current best open Class B MCA candidates."
+  },
+  "overall_recommendation": {
+    "class_b_primary_source": "Garcia ROSMAP mid-temporal cortex and angular gyrus",
+    "class_b_aca_source": "Yang superior frontal (empirically ACA) and/or Garcia medial-leaning PFC if split; HO frontal medial cortex as anatomical target",
+    "class_a_pca": "Yang hippocampus + Garcia hippocampus + Garcia entorhinal (secondary)",
+    "winkler_role": "H4 AVM + zonation reference; Class B only after lobe metadata verification",
+    "blocking_items": [
+      "NITRC login for BMM/borderzone maps",
+      "Winkler table S1 / dbGaP lobe labels",
+      "Confirm Garcia sheet region field parsing against actual column names"
+    ]
+  }
+}

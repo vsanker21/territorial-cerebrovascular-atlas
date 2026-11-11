@@ -1,0 +1,17 @@
+{
+  "n": 2420,
+  "n_subjects": 2420,
+  "TOTAL_WMH_median": 2.3301,
+  "TOTAL_WMH_iqr": [
+    0.7585500000000001,
+    5.8304775
+  ],
+  "spatial_masks": false,
+  "role": "non-stroke Aim4 volume endpoint; territory fractions via local FLAIR pilot",
+  "wmh_by_sex": {
+    "1.0": 2.7408,
+    "2.0": 2.031,
+    "mannwhitney_p": 8.899241079571421e-07
+  },
+  "mra_geometry_table": "results\\aim4\\mra_geometry_by_territory.csv"
+}

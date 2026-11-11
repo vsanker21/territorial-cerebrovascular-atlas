@@ -1,0 +1,157 @@
+{
+  "zips": {
+    "ArterialAtlas.zip": {
+      "exists": true,
+      "size": 9951786,
+      "is_zip": true,
+      "members": [
+        "ArterialAtlas/ArterialAtlasLables.txt",
+        "ArterialAtlas/Atlas/",
+        "ArterialAtlas/Atlas/ArterialAtlas.nii",
+        "ArterialAtlas/Atlas/ArterialAtlas_level2.nii",
+        "ArterialAtlas/Atlas/BorderZone_ProbAve.nii",
+        "ArterialAtlas/Atlas/ProbArterialAtlas_average.nii",
+        "ArterialAtlas/Atlas/ProbArterialAtlas_BMM.nii",
+        "ArterialAtlas/Atlas/TerritoryVoxels_BMM.nii",
+        "ArterialAtlas/Atlas_182/",
+        "ArterialAtlas/Atlas_182/ArterialAtlas.nii",
+        "ArterialAtlas/Atlas_182/ArterialAtlas_level2.nii",
+        "ArterialAtlas/Atlas_182/BorderZone_ProbAve.nii",
+        "ArterialAtlas/Atlas_182/ProbArterialAtlas_average.nii",
+        "ArterialAtlas/Atlas_182/ProbArterialAtlas_BMM.nii",
+        "ArterialAtlas/Atlas_182/TerritoryVoxels_BMM.nii",
+        "ArterialAtlas/README.txt"
+      ]
+    },
+    "Atlas_MNI152.zip": {
+      "exists": true,
+      "size": 9799384,
+      "is_zip": true,
+      "members": [
+        "Atlas_182_MNI152/ArterialAtlas.nii",
+        "Atlas_182_MNI152/ArterialAtlas_level2.nii",
+        "Atlas_182_MNI152/BorderZone_ProbAve.nii",
+        "Atlas_182_MNI152/ProbArterialAtlas_average.nii",
+        "Atlas_182_MNI152/ProbArterialAtlas_BMM.nii",
+        "Atlas_182_MNI152/TerritoryVoxels_BMM.nii",
+        "Atlas_MNI152/ArterialAtlas.nii",
+        "Atlas_MNI152/ArterialAtlas_level2.nii",
+        "Atlas_MNI152/BorderZone_ProbAve.nii",
+        "Atlas_MNI152/ProbArterialAtlas_average.nii",
+        "Atlas_MNI152/ProbArterialAtlas_BMM.nii",
+        "Atlas_MNI152/TerritoryVoxels_BMM.nii"
+      ]
+    },
+    "ArterialAtlas_zip.zip": {
+      "exists": false,
+      "size": 0,
+      "is_zip": false
+    }
+  },
+  "found": {
+    "ProbArterialAtlas_BMM.nii": {
+      "path": "data\\raw\\arterial_atlas\\nitrc\\extracted\\Atlas_MNI152\\Atlas_182_MNI152\\ProbArterialAtlas_BMM.nii",
+      "size": 231073376,
+      "shape": [
+        182,
+        218,
+        182,
+        4
+      ],
+      "zooms": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "BorderZone_ProbAve.nii": {
+      "path": "data\\raw\\arterial_atlas\\nitrc\\extracted\\Atlas_MNI152\\Atlas_182_MNI152\\BorderZone_ProbAve.nii",
+      "size": 115536864,
+      "shape": [
+        182,
+        218,
+        182,
+        2
+      ],
+      "zooms": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "TerritoryVoxels_BMM.nii": {
+      "path": "data\\raw\\arterial_atlas\\nitrc\\extracted\\Atlas_MNI152\\Atlas_182_MNI152\\TerritoryVoxels_BMM.nii",
+      "size": 14442416,
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "zooms": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ArterialAtlas.nii": {
+      "path": "data\\raw\\arterial_atlas\\nitrc\\extracted\\Atlas_MNI152\\Atlas_182_MNI152\\ArterialAtlas.nii",
+      "size": 14442416,
+      "shape": [
+        182,
+        218,
+        182,
+        1
+      ],
+      "zooms": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ArterialAtlas_level2.nii": {
+      "path": "data\\raw\\arterial_atlas\\nitrc\\extracted\\Atlas_MNI152\\Atlas_182_MNI152\\ArterialAtlas_level2.nii",
+      "size": 14442416,
+      "shape": [
+        182,
+        218,
+        182,
+        1
+      ],
+      "zooms": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ProbArterialAtlas_average.nii": {
+      "path": "data\\raw\\arterial_atlas\\nitrc\\extracted\\Atlas_MNI152\\Atlas_182_MNI152\\ProbArterialAtlas_average.nii",
+      "size": 231073376,
+      "shape": [
+        182,
+        218,
+        182,
+        4
+      ],
+      "zooms": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "missing_wanted": [
+    "BorderZone_ProbAve2.nii"
+  ],
+  "notes": [
+    "ArterialAtlas_zip.zip missing or is not a ZIP (likely NITRC login HTML). See docs/05_NITRC_ingest_instructions.md"
+  ],
+  "missing_required": [],
+  "missing_optional": [
+    "BorderZone_ProbAve2.nii"
+  ]
+}

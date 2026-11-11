@@ -1,0 +1,89 @@
+{
+  "object": "data\\processed\\aca_cohort_hunt\\linnarsson_aca_vascular.h5ad",
+  "n_vascular_aca_pool": 134,
+  "n_endo_aca_pool": 43,
+  "n_donors_aca_pool": 3,
+  "cell_type_counts": {
+    "fibroblast": 60,
+    "endothelial cell": 43,
+    "pericyte": 22,
+    "vascular associated smooth muscle cell": 9
+  },
+  "dissection_counts": {
+    "A24": 51,
+    "A23": 35,
+    "A25": 30,
+    "A32": 18
+  },
+  "per_dissection": {
+    "A24": {
+      "n_vascular": 51,
+      "n_endo": 17,
+      "n_peri": 3,
+      "n_vSMC": 4,
+      "n_fib": 27,
+      "n_donors": 3,
+      "aca_pool": true,
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 1.0,
+      "tv_assignment_fraction": 0.7241412396852811
+    },
+    "A32": {
+      "n_vascular": 18,
+      "n_endo": 6,
+      "n_peri": 4,
+      "n_vSMC": 2,
+      "n_fib": 6,
+      "n_donors": 3,
+      "aca_pool": true,
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 0.9999598167644459,
+      "tv_assignment_fraction": 0.5643595791001451
+    },
+    "A25": {
+      "n_vascular": 30,
+      "n_endo": 11,
+      "n_peri": 9,
+      "n_vSMC": 1,
+      "n_fib": 9,
+      "n_donors": 3,
+      "aca_pool": true,
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 1.0,
+      "tv_assignment_fraction": 0.5293645251396648
+    },
+    "A23": {
+      "n_vascular": 35,
+      "n_endo": 9,
+      "n_peri": 6,
+      "n_vSMC": 2,
+      "n_fib": 18,
+      "n_donors": 3,
+      "aca_pool": true,
+      "tv_dominant": "ACA",
+      "tv_p_ACA": 0.8679953106682298,
+      "tv_assignment_fraction": 0.4436238818389848
+    },
+    "A14": {
+      "n_vascular": 17,
+      "n_endo": 3,
+      "n_peri": 2,
+      "n_vSMC": 1,
+      "n_fib": 11,
+      "n_donors": 1,
+      "aca_pool": false,
+      "tv_dominant": "MCA",
+      "tv_p_ACA": 0.0,
+      "tv_assignment_fraction": 0.4048177445641372
+    }
+  },
+  "excluded": {
+    "A14": "MCA-leaning Frontal Orbital on TerritoryVoxels; kept out of ACA pool"
+  },
+  "verdict": "GO_as_external_ACA_label_anchor_but_n_sparse",
+  "notes": [
+    "Adult neurotypical only in these census slices.",
+    "Not vessel-enriched; vascular yield is low per dissection.",
+    "Use as TerritoryVoxels-mapped ACA cortex vascular seed; prefer LIBD dACC (GSE296731) once annotated vascular gate is available for power."
+  ]
+}

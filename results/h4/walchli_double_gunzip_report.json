@@ -1,0 +1,17 @@
+{
+  "adult_temporal_sorted": {
+    "status": "ok",
+    "rds": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\_decomp\\adult_temporal_sorted.rds",
+    "bytes": 8155275975
+  },
+  "avm_sorted": {
+    "status": "ok",
+    "rds": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\_decomp\\avm_sorted.rds",
+    "bytes": 2129159005
+  },
+  "lgg_sorted": {
+    "status": "ok",
+    "rds": "F:\\Cerebrovascular SCS\\data\\raw\\walchli\\geo_GSE256493\\suppl\\_decomp\\lgg_sorted.rds",
+    "bytes": 2056898228
+  }
+}

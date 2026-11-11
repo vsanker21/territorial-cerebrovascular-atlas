@@ -1,0 +1,13 @@
+{
+  "object": "data\\processed\\aca_cohort_hunt\\libd_dacc_globus_vascular.h5ad",
+  "n_vascular": 248,
+  "n_donors": 10,
+  "cell_type_counts": {
+    "VLMC": 159,
+    "Endo": 89
+  },
+  "annotation_source": "published_Azimuth_GLOBUS_sce_Final",
+  "matches_paper_log": true,
+  "vessel_enriched": false,
+  "verdict": "GO_paper_identical_Azimuth_unsorted_dACC"
+}

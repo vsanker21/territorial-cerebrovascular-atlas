@@ -1,0 +1,19 @@
+{
+  "n_requested": 267,
+  "n_rows": 267,
+  "n_ok": 267,
+  "n_newly_processed": 227,
+  "n_resumed": 40,
+  "min_ucd_wmh": 3.0,
+  "method": "FLAIR->T1 rigid -> T1->MNI affine (SimpleITK) -> WM-prior hyperintensity",
+  "median_wmh_voxels": 19.0,
+  "median_frac_assigned_tv": 0.0,
+  "mean_frac_ACA": 0.04094874601187502,
+  "mean_frac_MCA": 0.13156538403894646,
+  "mean_frac_PCA": 0.02299435815015665,
+  "mean_frac_VB": 0.004517087946447277,
+  "ucd_vs_local_wmh_voxels": {
+    "spearman_rho": 0.5084986613578829,
+    "p": 5.798266239704634e-19
+  }
+}

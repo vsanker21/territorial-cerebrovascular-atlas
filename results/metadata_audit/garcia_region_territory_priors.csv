@@ -1,0 +1,8 @@
+region,ho_roi,a_priori_territory,class_b_candidate,notes
+prefrontal cortex,middle_frontal_gyrus / frontal_medial_cortex (split),mixed ACA/MCA — requires subregional split for Class B,conditional,PFC spans ACA medial and MCA lateral; do not assign single territory without finer label.
+mid-temporal cortex,Middle Temporal Gyrus,MCA,yes_mca,Strong MCA prior; excellent Class B partner vs medial frontal ACA.
+angular gyrus,Angular Gyrus,MCA (inferior parietal),yes_mca,Classic MCA parietal territory.
+entorhinal cortex,not in HO cortical maxprob as named; near temporal/para-hippocampal,PCA / posterior circulation influence,no_use_for_class_a_pca,Better as PCA-leaning cortical ROI than MCA Class B.
+thalamus,Thalamus,mixed perforators (PCA/ACA/VB-associated),no,Perforator territories; high entropy expected — Aim 3 / special case.
+hippocampus,Hippocampus,PCA,no_use_for_class_a,Pairs with Yang hippocampus for cross-dataset PCA replication.
+mammillary body,none standard,posterior perforator / uncertain,no,Too small / atypical for primary territorial tests.

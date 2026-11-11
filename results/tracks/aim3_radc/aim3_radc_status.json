@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-17",
+  "dua_project": "RADC #7508",
+  "rra": "RRA-539487",
+  "data_received": false,
+  "radc_path": null,
+  "garcia_key": {
+    "n_garcia_rosmap_subjects_in_h5ad": 214,
+    "n_projid_in_sample_table": 219,
+    "sample_table": "F:\\Cerebrovascular SCS\\results\\metadata_audit\\garcia_rosmap_samples.csv"
+  },
+  "planned_models": [
+    "territorial_molecular_score ~ clinical diagnosis (NCI/MCI/AD) + age + sex + educ + region",
+    "territorial_molecular_score ~ Braak/CERAD/NIA-Reagan + covariates",
+    "territorial_molecular_score ~ arteriolosclerosis/atherosclerosis/CAA/infarcts + covariates",
+    "APOE as modifier"
+  ],
+  "verdict": "GATED_AWAITING_RADC_DUA_DELIVERY__SCAFFOLD_ONLY",
+  "not_identity_proof": "Aim 3 is phenotype linkage / association \u2014 not developmental territorial identity (Track B)."
+}

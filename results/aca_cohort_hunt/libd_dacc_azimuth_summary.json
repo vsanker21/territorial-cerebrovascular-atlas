@@ -1,0 +1,18 @@
+{
+  "object": "data\\processed\\aca_cohort_hunt\\libd_dacc_azimuth_vascular.h5ad",
+  "n_vascular": 406,
+  "n_donors": 10,
+  "cell_type_counts": {
+    "VLMC": 237,
+    "Endo": 169
+  },
+  "annotation_column": "predicted.subclass",
+  "annotation_source": "Azimuth_humancortexref_method_matched",
+  "published_expect_from_paper_log": {
+    "Endo": 89,
+    "VLMC": 159
+  },
+  "note": "Paper-identical labels require Zenodo/GLOBUS sce_azimuth.Rdata; this is same reference re-run on GEO matrices.",
+  "vessel_enriched": false,
+  "verdict": "GO_method_matched_Azimuth_unsorted_dACC"
+}

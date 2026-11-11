@@ -1,0 +1,131 @@
+{
+  "object": "data\\processed\\aca_cohort_hunt\\libd_dacc_vascular_seed.h5ad",
+  "n_vascular_seed": 117,
+  "n_donors": 10,
+  "n_libraries": 10,
+  "type_counts": {
+    "pericyte_seed": 63,
+    "endothelial_seed": 34,
+    "fibroblast_seed": 10,
+    "vSMC_seed": 10
+  },
+  "per_library": {
+    "GSM8975421_Br2720-1c_dACC": {
+      "n_raw": 2011981,
+      "n_vasc_seed": 9,
+      "donor_id": "Br2720",
+      "type_counts": {
+        "endothelial_seed": 5,
+        "pericyte_seed": 3,
+        "vSMC_seed": 1
+      }
+    },
+    "GSM8975422_Br6432-2c_dACC": {
+      "n_raw": 1894218,
+      "n_vasc_seed": 12,
+      "donor_id": "Br6432",
+      "type_counts": {
+        "pericyte_seed": 5,
+        "fibroblast_seed": 3,
+        "endothelial_seed": 2,
+        "vSMC_seed": 2
+      }
+    },
+    "GSM8975423_Br6471-3c_dACC": {
+      "n_raw": 1814000,
+      "n_vasc_seed": 9,
+      "donor_id": "Br6471",
+      "type_counts": {
+        "pericyte_seed": 6,
+        "endothelial_seed": 2,
+        "vSMC_seed": 1
+      }
+    },
+    "GSM8975424_Br6522-4c_dACC": {
+      "n_raw": 1735319,
+      "n_vasc_seed": 19,
+      "donor_id": "Br6522",
+      "type_counts": {
+        "pericyte_seed": 8,
+        "vSMC_seed": 5,
+        "endothelial_seed": 4,
+        "fibroblast_seed": 2
+      }
+    },
+    "GSM8975425_Br2743-5c_dACC": {
+      "n_raw": 1783024,
+      "n_vasc_seed": 7,
+      "donor_id": "Br2743",
+      "type_counts": {
+        "pericyte_seed": 4,
+        "endothelial_seed": 3
+      }
+    },
+    "GSM8975426_Br3942-6c_dACC": {
+      "n_raw": 1905127,
+      "n_vasc_seed": 11,
+      "donor_id": "Br3942",
+      "type_counts": {
+        "pericyte_seed": 8,
+        "endothelial_seed": 2,
+        "vSMC_seed": 1
+      }
+    },
+    "GSM8975427_Br6423-7c_dACC": {
+      "n_raw": 2256282,
+      "n_vasc_seed": 11,
+      "donor_id": "Br6423",
+      "type_counts": {
+        "pericyte_seed": 9,
+        "endothelial_seed": 2
+      }
+    },
+    "GSM8975428_Br8325-8c_dACC": {
+      "n_raw": 2191374,
+      "n_vasc_seed": 1,
+      "donor_id": "Br8325",
+      "type_counts": {
+        "pericyte_seed": 1
+      }
+    },
+    "GSM8975429_Br8492-9c_dACC": {
+      "n_raw": 2000806,
+      "n_vasc_seed": 17,
+      "donor_id": "Br8492",
+      "type_counts": {
+        "endothelial_seed": 9,
+        "pericyte_seed": 6,
+        "fibroblast_seed": 2
+      }
+    },
+    "GSM8975430_Br8667-10c_dACC": {
+      "n_raw": 1881530,
+      "n_vasc_seed": 21,
+      "donor_id": "Br8667",
+      "type_counts": {
+        "pericyte_seed": 13,
+        "endothelial_seed": 5,
+        "fibroblast_seed": 3
+      }
+    }
+  },
+  "tv_prior": {
+    "tv_dominant": "ACA",
+    "tv_p_ACA": 1.0,
+    "tv_p_MCA": 0.0,
+    "tv_p_PCA": 0.0,
+    "tv_p_VB": 0.0,
+    "tv_p_dominant": 1.0,
+    "tv_assignment_fraction": 0.724,
+    "tv_source": "TerritoryVoxels_HO_cingulate_anterior",
+    "anatomy": "dACC_BA24_32_33",
+    "cohort_arm": "ACA_cortex"
+  },
+  "gate": {
+    "vasc_quantile": 0.98,
+    "neur_cap": 0.35,
+    "oligo_cap": 0.8,
+    "note": "Unsorted cortex seed; tighten before Class B DE"
+  },
+  "verdict": "GO_external_ACA_dACC_vascular_seed"
+}

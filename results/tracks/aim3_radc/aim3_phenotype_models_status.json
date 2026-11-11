@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-18",
+  "rra": "RRA-539487",
+  "project": "RADC #7508",
+  "expected_classes": {
+    "id": [
+      "projid",
+      "individualID",
+      "proj_id"
+    ],
+    "demographics": [
+      "age_death",
+      "age_bl",
+      "msex",
+      "sex",
+      "educ"
+    ],
+    "diagnosis": [
+      "cogdx",
+      "dcfdx",
+      "diagnosis",
+      "clin_dx"
+    ],
+    "ad_path": [
+      "braaksc",
+      "ceradsc",
+      "niareagansc",
+      "np_reagan"
+    ],
+    "cvd_path": [
+      "arteriolosclerosis",
+      "cvda",
+      "caa_4gp",
+      "amyloid",
+      "ci_num2_gct",
+      "ci_num2_mct",
+      "atherosclerosis"
+    ],
+    "genetics": [
+      "apoe_genotype",
+      "apoe4"
+    ]
+  },
+  "not_identity_proof": true,
+  "trci_bci_excluded": true,
+  "verdict": "GATED_AWAITING_RADC_DUA_DELIVERY"
+}

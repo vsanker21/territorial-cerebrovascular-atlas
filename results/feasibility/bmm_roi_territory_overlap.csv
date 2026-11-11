@@ -1,0 +1,8 @@
+roi,role,n_voxels,p_ACA,p_MCA,p_PCA,p_VB,dominant,p_dominant,entropy_bits,mean_MCA_over_ACA_ratio,mean_MCA_over_PCA_ratio,frac_multi_claimed_voxels,frac_unclaimed_voxels,high_specificity_pdom_ge_0.50,high_specificity_H_le_1.0,method
+hippocampus,Yang,5527,0.0,0.31278022903308983,0.6866808047065249,0.0005389662603850979,PCA,0.6866808047065249,0.9026941598251017,,,0.0,0.0,True,True,ProbArterialAtlas_BMM_mean_in_HO_ROI
+superior_frontal_gyrus,Yang,21887,0.4567974324501961,0.5432025675498039,0.0,0.0,MCA,0.5432025675498039,0.9946078082346248,,,0.0,0.0,True,True,ProbArterialAtlas_BMM_mean_in_HO_ROI
+temporal_pole,Garcia_exvivo_MCA,18571,0.0,1.0,0.0,0.0,MCA,1.0,-0.0,,,0.0,0.0,True,True,ProbArterialAtlas_BMM_mean_in_HO_ROI
+middle_frontal_gyrus,ClassB_MCA_candidate,21956,0.004844557485653032,0.995155442514347,0.0,0.0,MCA,0.995155442514347,0.04422409609565954,,,0.0,0.0,True,True,ProbArterialAtlas_BMM_mean_in_HO_ROI
+frontal_medial_cortex,ClassB_ACA_candidate,4802,0.05888222524040143,0.9411177747595986,0.0,0.0,MCA,0.9411177747595986,0.32299169733725075,,,0.0,0.0,True,True,ProbArterialAtlas_BMM_mean_in_HO_ROI
+angular_gyrus,ClassB_MCA_candidate,7584,0.0,0.9999145321901869,8.546780981319786e-05,0.0,MCA,0.9999145321901869,0.0012783328614518698,,,0.0,0.0,True,True,ProbArterialAtlas_BMM_mean_in_HO_ROI
+occipital_pole,ClassA_PCA,20793,0.0,0.12318472646150715,0.8013670350716122,0.07544823846688067,PCA,0.8013670350716122,0.9094614922006091,,,0.0,0.0,True,True,ProbArterialAtlas_BMM_mean_in_HO_ROI
